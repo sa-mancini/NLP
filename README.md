@@ -1,5 +1,7 @@
 # Retrieval-Augmented Clinical Decision Support for Antibiotic Prescribing
 
+Project submission for the *Natural Language Processing (2025/2026)* course 
+
 ## Report and presentation
 
 - [Report](report.pdf)
