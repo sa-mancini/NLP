@@ -2,7 +2,5 @@ __pycache__/
 *.pyc
 .venv/
 .env
-results/*.json
-data/e5_vectorstore/
 *.pdf
 .ipynb_checkpoints/

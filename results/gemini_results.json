@@ -1,0 +1,1063 @@
+{
+  "FAR_001": {
+    "response_text": "{\n  \"antibiotic_needed\": true,\n  \"active_ingredient\": \"Amoxicillina\",\n  \"reasoning\": \"Il paziente presenta una faringite acuta con tutti e quattro i criteri del punteggio Centor/McIsaac soddisfatti: febbre > 38,0 °C (39,1 °C), assenza di tosse, linfoadenite cervicale anteriore dolente ed essudato tonsillare bilaterale (punteggio totale = 4). Secondo le linee guida recuperate (pagine 53 e 55), questo quadro clinico identifica un'alta probabilità di eziologia batterica da Streptococcus di gruppo A e la conseguente indicazione al trattamento antibiotico, la cui prima scelta è rappresentata da Amoxicillina (o Fenossimetilpenicillina).\",\n  \"evidence_pages\": [\n    52,\n    53,\n    55\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": true,
+    "active_ingredient": "Amoxicillina",
+    "reasoning": "Il paziente presenta una faringite acuta con tutti e quattro i criteri del punteggio Centor/McIsaac soddisfatti: febbre > 38,0 °C (39,1 °C), assenza di tosse, linfoadenite cervicale anteriore dolente ed essudato tonsillare bilaterale (punteggio totale = 4). Secondo le linee guida recuperate (pagine 53 e 55), questo quadro clinico identifica un'alta probabilità di eziologia batterica da Streptococcus di gruppo A e la conseguente indicazione al trattamento antibiotico, la cui prima scelta è rappresentata da Amoxicillina (o Fenossimetilpenicillina).",
+    "evidence_pages": [
+      52,
+      53,
+      55
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_001",
+        "doctor_note": "\nPaziente di 12 anni presenta mal di gola intenso e febbre\nda 2 giorni, con temperatura massima di 39,1°C.\n\nRiferisce dolore importante alla deglutizione.\nNega tosse e rinorrea.\n\nAll'esame obiettivo: tonsille aumentate di volume con\nessudato biancastro bilaterale e linfonodi cervicali\nanteriori dolenti.\n\nNessuna allergia farmacologica nota.\nNessuna terapia antibiotica recente.\n",
+        "ehr": {
+          "age": 12,
+          "sex": "maschio",
+          "region": "Molise",
+          "allergies": [],
+          "previous_antibiotics": [],
+          "comorbidities": []
+        },
+        "clinical_features": {},
+        "regional_context": {
+          "region": "Molise",
+          "antibiotic_pressure": 0.031324201745649864,
+          "antibiotic_pressure_level": "low"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 12 anni presenta mal di gola intenso e febbre\nda 2 giorni, con temperatura massima di 39,1°C.\n\nRiferisce dolore importante alla deglutizione.\nNega tosse e rinorrea.\n\nAll'esame obiettivo: tonsille aumentate di volume con\nessudato biancastro bilaterale e linfonodi cervicali\nanteriori dolenti.\n\nNessuna allergia farmacologica nota.\nNessuna terapia antibiotica recente.\n\netà: 12 anni\nsesso: maschio",
+      "guideline_evidence": [
+        {
+          "page": 50,
+          "retrieval_distance": 0.2738138437271118,
+          "text": "passage: Faringite \nPagina 1 di 2 \nADULTI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (la maggior parte dei casi)\n• Virus di Epstein Barr (raramente)\nBatteri:\n• Streptococcus di gruppo A (5-10% negli adulti)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Infezione acuta da HIV e altre malattie sessualmente\ntrasmesse (sifilide, gonorrea) \n• Toxoplasmosi acuta\n• Difterite\nDiagnosi \n0aniIestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, mal di\ntesta e mialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei (vedi \"Sistema \ndi punteggio clinico Centor\") \nTest microbiologici\nBassa probabilità di Streptococcus  di gruppo A(GAS)"
+        },
+        {
+          "page": 41,
+          "retrieval_distance": 0.2815721035003662,
+          "text": "passage: 5. Otite media acuta  \n \nMessaggi chiave \n \nGli antibiotici non sono necessari nella maggior parte dei casi. \n \nIl trattamento sintomatico da solo (controllo del dolore e della febbre con un attento follow-up) è appropriato nei casi \nlievi, specialmente nei bambini > 2 anni. \n \nIl trattamento antibiotico può essere preso in considerazione in casi selezionati (es. sintomi gravi, immunosoppressione o \notite bilaterale nei bambini < 2 anni). \n \nL’amoxicillina ha una buona attività contro lo Streptococcus pneumoniae, l’agente patogeno batterico più comune \ndell’otite media acuta. \n \nDosi più elevate di amoxicillina sono efficaci contro i ceppi più resistenti di Streptococcus pneumoniae. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti) \n \nPocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2013 (31). \n"
+        },
+        {
+          "page": 52,
+          "retrieval_distance": 0.28306668996810913,
+          "text": "passage: Faringite \nPagina 1 di 2 \nBAMBINI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (maggior parte dei casi)\n• Virus di Epstein-Barr\nBatteri:\n• Streptococcus di gruppo A (20-30% nei\nbambini)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Toxoplasmosi acuta\n• Difterite\nNon infettive (rare): \n• Inquinamento\n• Allergeni\n• Fumo\nDiagnosi \nManifestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, cefalea e\nmialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei \nTest \nBassa probabilità di Streptococcus di gruppo A(GAS) \n(punteggio Centor 0-2): \n• Test di solito non necessari\n0aggiore probabilità di essere causata da G$S"
+        },
+        {
+          "page": 53,
+          "retrieval_distance": 0.2870562970638275,
+          "text": "passage: Febbre > 38,0ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \nTrattamento antibiotico \nTutti i dosaggi si intendono per una funzionalità renale normale. \nGli antibiotici sono elencati in ordine alfabetico e devono essere \ntutti considerati come pari opzioni di trattamento se non \ndiversamente indicato \nPrima scelta \nTrattamento sintomatico \nI medicinali sono elencati in ordine alfabetico e devono essere \nconsiderati come pari opzioni di trattamento \nAmoxicillina 80-90 mg/kg/die ORALE \n• Fasce di peso per somministrazione orale:\nACCESS \nOPPURE \nParacetamolo (acetaminofene) \n• Controllo del dolore/trattamento antipiretico:\n10-15 mg/kg q6h\n• Fasce di peso per somministrazione orale:\nOPPURE \nFenossimetilpenicillina 10-15 mg/kg/dose \n(16 000-24 000 UI/kg/dose) q6-8h ORALE \nSeconda scelta \nCefalexina 25 mg/kg/dose q12h ORALE"
+        },
+        {
+          "page": 55,
+          "retrieval_distance": 0.28943049907684326,
+          "text": "passage: Segni e sintomi rilevanti \nPunteggio \nFebbre > 38,0 °C \n1 \nAssenza di tosse \n1 \nLinfoadenite cervicale anteriore dolente \n1 \nEssudati tonsillari \n1 \nPunteggio totale \nProbabilità di infezione da Streptococcus pyogenes (%) \n0 \n1–2.5 \n1 \n5–10 \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n55\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 213,
+          "retrieval_distance": 0.29157158732414246,
+          "text": "passage: • febbre (≥ 38,0 ºC), linfoadenopatia generalizzata e\nmalessere\n• possibile meningite, epatite e coinvolgimento\noculare\nSifilide tardiva \n• Infezione terziaria: possibile interessamento di apparati\ndiversi\n• sistema cardiovascolare: di solito, aortite\n• cute/tessuti molli/ossa: lesioni nodulari (gomma\nluetica)\n• sistema nervoso centrale: demenza spesso\nprogressiva, sintomi psichiatrici, problemi di\ncoordinamento dei movimenti\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta sifilide\ndevono essere sottoposti a test anche per altre IST\n(es. HIV, infezione gonococcica)\nMetodi di rilevamento diretto \n• È possibile rilevare l’agente patogeno nei campioni\nottenuti da lesioni cutanee e tissutali\nTest sierologici"
+        },
+        {
+          "page": 46,
+          "retrieval_distance": 0.29208123683929443,
+          "text": "passage: trattamento antibiotico, specialmente nei bambini di età superiore ai 2 anni.  \nI casi non gravi di solito presentano sintomi lievi, spesso dolore a un orecchio e febbre lieve (< 39,0 °C), che migliora \ncon gli antipiretici. È appropriato un approccio di vigile attesa con gestione sintomatica (ovvero analgesici e \nantipiretici) (Tabella 5.2). La vigile attesa comporta un attento monitoraggio del bambino da parte degli operatori \nsanitari, con istruzioni per chiedere assistenza in caso di peggioramento della febbre, dolore o persistenza dei \nsintomi. \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n5. Otite media acuta\n46\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 43,
+          "retrieval_distance": 0.29336458444595337,
+          "text": "passage: Otite media acuta \nPagina 1 di 2 \nBAMBINI \nDiagnosi \nManifestazione clinica\nInsorgenza acuta di dolore auricolare (mono o bilaterale), \nfebbre (≥38,0ºC), +/- secrezione auricolare \nTest microbiologici\n• Di solito non necessari salvo sospetta complicanza\n• Le colture di pus da timpani perforati non vanno usate per\noreintare il trattamento\nAltri test di laboratorio \nDi solito non necessari salvo sospetta complicanza \nImaging \nDi solito non necessario salvo sospetta complicanza\n(es. mastoidite, ascesso cerebrale) \nOtoscopia\nNecessaria per la diagnosi definitiva, se disponibile \nTumefazione, infiammazione/congestione della membrana \ntimpanica (può essere opaca/mostrare mobilità ridotta) \nDefinizione\nInfezione dell'orecchio medio che si verifica principalmente nei \nbambini di età inferiore ai 5 anni, in genere come complicanza \ndi un'infezione virale delle vie aeree superiori"
+        },
+        {
+          "page": 35,
+          "retrieval_distance": 0.29671257734298706,
+          "text": "passage: 4. Bronchite \n \nMessaggi chiave \n \nGli antibiotici non sono necessari nella maggior parte dei casi. \n \nLa bronchite acuta di solito si presenta come tosse persistente, accompagnata o meno da febbre lieve. \n \nQuasi tutti i casi sono virali e autolimitanti; i pazienti devono essere informati che la tosse può durare diverse settimane. \n \nIl colore giallo/verde dell’espettorato non indica un’infezione batterica e la necessità di antibiotici. \n \nLa manifestazione clinica è utile nel differenziare tra bronchite e polmonite.  \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti) \n• \nPocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2013 (31). \n• \nCoronavirus disease (COVID-19) pandemic (32). \n• \nLiving guidance for clinical management of COVID-19: living guidance, 23 November 2021 (33). \n•"
+        },
+        {
+          "page": 37,
+          "retrieval_distance": 0.29675403237342834,
+          "text": "passage: BronchitH\n%$0%,1,\nDiagnosi\n0aniIeVta]ione clinica\n(VoUdio aFuto della toVVe di duUata ! \u0018 JioUni\u000f VolitaPente \nFon UinoUUea e IeEEUe lieve\u000f Venza VeJni FliniFi di polPonite\n'i Volito patoloJia lieve\u001e la toVVe di Volito duUa \u0014\u0010\u0016 \nVettiPane\nImportante: , VintoPi poVVono VovUappoUVi alla \npolPonite e FoPpoUtaUe un tUattaPento inappUopUiato \nFon antiEiotiFi\u00114ueVto deve eVVeUe evitato Fon un'attenta \nvalutazione del paziente \n• Bronchite:  PaniIeVtazione Peno JUave\u000f di Volito\nautoliPitante \u000bPa la toVVe pu´ UiFKiedeUe VettiPane peU\nUiVolveUVi\f\n• 3olmonite \u000bYedi inIoJraIica \u00053olmonite acTXiVita\nin comXnit¢\u0005\f\u001d PaniIeVtazione pi» JUave Fon\ndiVpnea e VeJni ViVtePiFi di inIezione \u000beV\u0011 auPento\ndella IUeTuenza FaUdiaFa e UeVpiUatoUia\f\n'eIini]ione\n,nIiaPPazione autoliPitante della tUaFKea e dei EUonFKi \nFaUatteUizzata da toVVe peUViVtente \u000e\u0012\u0010 IeEEUe\u000f JeneUalPente \nFauVata da un'inIezione viUale"
+        }
+      ]
+    }
+  },
+  "FAR_002": {
+    "response_text": "{\n  \"antibiotic_needed\": false,\n  \"active_ingredient\": null,\n  \"reasoning\": \"La paziente di 28 anni presenta sintomi caratteristici di faringite virale (presenza di tosse, rinorrea, raucedine, temperatura di 37,4°C e assenza di essudato tonsillare o linfonodi cervicali dolenti). Applicando il sistema di punteggio clinico Centor (Febbre >38°C: 0, Assenza di tosse: 0, Linfoadenite cervicale anteriore dolente: 0, Essudati tonsillari: 0), il punteggio totale è 0. Secondo le linee guida recuperate, per un punteggio Centor compreso tra 0 e 2 la faringite da GAS è improbabile ed è indicato esclusivamente il trattamento sintomatico, senza necessità di terapia antibiotica.\",\n  \"evidence_pages\": [\n    50,\n    53,\n    55\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": false,
+    "active_ingredient": null,
+    "reasoning": "La paziente di 28 anni presenta sintomi caratteristici di faringite virale (presenza di tosse, rinorrea, raucedine, temperatura di 37,4°C e assenza di essudato tonsillare o linfonodi cervicali dolenti). Applicando il sistema di punteggio clinico Centor (Febbre >38°C: 0, Assenza di tosse: 0, Linfoadenite cervicale anteriore dolente: 0, Essudati tonsillari: 0), il punteggio totale è 0. Secondo le linee guida recuperate, per un punteggio Centor compreso tra 0 e 2 la faringite da GAS è improbabile ed è indicato esclusivamente il trattamento sintomatico, senza necessità di terapia antibiotica.",
+    "evidence_pages": [
+      50,
+      53,
+      55
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_002",
+        "doctor_note": "\nPaziente di 28 anni presenta mal di gola da 3 giorni\nassociato a tosse, rinorrea e raucedine.\n\nTemperatura 37,4°C.\n\nNega febbre significativa e dolore intenso alla deglutizione.\n\nAll'esame obiettivo: faringe diffusamente eritematosa,\nsenza essudato tonsillare e senza linfonodi cervicali\ndolenti.\n\nNessuna allergia farmacologica nota.\n",
+        "ehr": {
+          "age": 28,
+          "sex": "femmina",
+          "region": "Lombardia",
+          "allergies": [],
+          "previous_antibiotics": [],
+          "comorbidities": []
+        },
+        "clinical_features": {},
+        "regional_context": {
+          "region": "Lombardia",
+          "antibiotic_pressure": 1.0,
+          "antibiotic_pressure_level": "high"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 28 anni presenta mal di gola da 3 giorni\nassociato a tosse, rinorrea e raucedine.\n\nTemperatura 37,4°C.\n\nNega febbre significativa e dolore intenso alla deglutizione.\n\nAll'esame obiettivo: faringe diffusamente eritematosa,\nsenza essudato tonsillare e senza linfonodi cervicali\ndolenti.\n\nNessuna allergia farmacologica nota.\n\netà: 28 anni\nsesso: femmina",
+      "guideline_evidence": [
+        {
+          "page": 50,
+          "retrieval_distance": 0.2365477979183197,
+          "text": "passage: Faringite \nPagina 1 di 2 \nADULTI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (la maggior parte dei casi)\n• Virus di Epstein Barr (raramente)\nBatteri:\n• Streptococcus di gruppo A (5-10% negli adulti)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Infezione acuta da HIV e altre malattie sessualmente\ntrasmesse (sifilide, gonorrea) \n• Toxoplasmosi acuta\n• Difterite\nDiagnosi \n0aniIestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, mal di\ntesta e mialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei (vedi \"Sistema \ndi punteggio clinico Centor\") \nTest microbiologici\nBassa probabilità di Streptococcus  di gruppo A(GAS)"
+        },
+        {
+          "page": 52,
+          "retrieval_distance": 0.25929203629493713,
+          "text": "passage: Faringite \nPagina 1 di 2 \nBAMBINI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (maggior parte dei casi)\n• Virus di Epstein-Barr\nBatteri:\n• Streptococcus di gruppo A (20-30% nei\nbambini)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Toxoplasmosi acuta\n• Difterite\nNon infettive (rare): \n• Inquinamento\n• Allergeni\n• Fumo\nDiagnosi \nManifestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, cefalea e\nmialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei \nTest \nBassa probabilità di Streptococcus di gruppo A(GAS) \n(punteggio Centor 0-2): \n• Test di solito non necessari\n0aggiore probabilità di essere causata da G$S"
+        },
+        {
+          "page": 54,
+          "retrieval_distance": 0.2803364396095276,
+          "text": "passage: Fisiopatologia \nVirus e batteri responsabili della faringite accedono alle cellule della mucosa della faringe attraverso diversi \nmeccanismi e iniziano a replicarsi in queste cellule. Il danno è causato alle cellule in cui i patogeni si stanno \nreplicando. \nEpidemiologia  \nIl mal di gola è una delle patologie più comuni nei pazienti che si presentano all’assistenza sanitaria di base ed è una \ncausa molto frequente di prescrizione di antibiotici inappropriata. Fino al 60% dei pazienti con mal di gola riceve \nantibiotici in molte strutture ambulatoriali in contesti ad alto reddito (55,56). \nI dati sull’incidenza e la prevalenza del mal di gola non sono disponibili per la maggior parte dei contesti a reddito \nmedio e basso. La maggior parte dei casi di faringite sono autolimitanti e a eziologia virale. I casi di mal di gola causati"
+        },
+        {
+          "page": 213,
+          "retrieval_distance": 0.28417113423347473,
+          "text": "passage: • febbre (≥ 38,0 ºC), linfoadenopatia generalizzata e\nmalessere\n• possibile meningite, epatite e coinvolgimento\noculare\nSifilide tardiva \n• Infezione terziaria: possibile interessamento di apparati\ndiversi\n• sistema cardiovascolare: di solito, aortite\n• cute/tessuti molli/ossa: lesioni nodulari (gomma\nluetica)\n• sistema nervoso centrale: demenza spesso\nprogressiva, sintomi psichiatrici, problemi di\ncoordinamento dei movimenti\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta sifilide\ndevono essere sottoposti a test anche per altre IST\n(es. HIV, infezione gonococcica)\nMetodi di rilevamento diretto \n• È possibile rilevare l’agente patogeno nei campioni\nottenuti da lesioni cutanee e tissutali\nTest sierologici"
+        },
+        {
+          "page": 55,
+          "retrieval_distance": 0.2857469618320465,
+          "text": "passage: Segni e sintomi rilevanti \nPunteggio \nFebbre > 38,0 °C \n1 \nAssenza di tosse \n1 \nLinfoadenite cervicale anteriore dolente \n1 \nEssudati tonsillari \n1 \nPunteggio totale \nProbabilità di infezione da Streptococcus pyogenes (%) \n0 \n1–2.5 \n1 \n5–10 \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n55\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 53,
+          "retrieval_distance": 0.2947571873664856,
+          "text": "passage: OPPURE \nFaringite \nPagina 2 di 2 \nSistema di punteggio clinico Centor\nPunteggio 0-2 \n• Improbabile faringite da GAS\n• Solo trattamento sintomatico\nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con bassa prevalenza di RF) \n• Il trattamento antibiotico può essere\nsospeso\nanche in casi di probabile faringite da GAS \nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con prevalenza medio/alta di RF) \n• Trattamento antibiotico raccomandato\nSegni e Sintomi \n(1 punto ciascuno) \n• Questo sistema può aiutare a indicare\nl'origine dell'infezione (batterica o virale)\ne se sono necessari antibiotici\n• Tuttavia, anche con un punteggio di 4, la \nprobabilità di infezione da GAS è solo \ndel 50%; inoltre questo punteggio è stato \nvalidato solo in contesti ad alto reddito\nFebbre > 38,0ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \nTrattamento antibiotico"
+        },
+        {
+          "page": 49,
+          "retrieval_distance": 0.2982994318008423,
+          "text": "passage: reumatica in contesti di endemia.  \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti) \n \nPocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2013 (31). \n \nRheumatic heart disease - fact sheet (52). \n \nRheumatic fever and rheumatic heart disease: report of a WHO expert consultation, Geneva, 20 October - 1 November \n2001 (53). \n \nDiphtheria vaccine: WHO position paper - August 2017 (54). \nDefinizione  \nLa faringite è comunemente definita come un’infiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa.  \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n49\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 135,
+          "retrieval_distance": 0.2991145849227905,
+          "text": "passage: Le caratteristiche cliniche ben consolidate della PAC includono una combinazione di nuova insorgenza (meno di 2 \nsettimane) di sintomi, peggioramento della tosse con o senza produzione di espettorato, dispnea (difficoltà nella \nrespirazione), tachipnea (tassi respiratori anormali per diagnosticare una tachipnea variano con l’età), ridotta \nsaturazione di ossigeno, crepitazioni su auscultazione polmonare, o dolore toracico o malessere generale senza una \nspiegazione alternativa. Di solito è presente febbre ≥ 38,0 °C per 3-4 giorni, ma può essere assente, specialmente \nnegli anziani. Caratteristiche extrapolmonari come confusione o disorientamento possono essere i sintomi principali \nnegli anziani, nei pazienti immunocompromessi e nei bambini malnutriti. La gravità dei segni e dei sintomi può \nManuale antibiotici AWaRe (Access, Watch, Reserve)"
+        },
+        {
+          "page": 166,
+          "retrieval_distance": 0.30228716135025024,
+          "text": "passage: • Maggioranza dei casi: le papule progrediscono a vescicole\ne pustole che si rompono fino a formare croste (forma non \nbollosa) \n• Minoranza di casi: le vescicole si sviluppano formando bolle\npiù grandi (forma bollosa). \nErisipela: Insorgenza acuta di una lesione cutanea arrossata \ncon margini induriti ben definiti, di solito sul viso o sulle gambe \n• Possono essere presenti bolle o svilupparsi nei primi giorni.\n• Possono essere presenti febbre (> 38,0 °C) e altri segni di\ninfezione sistemica \nCellulite: Insorgenza acuta di una lesione cutanea che\npresenta una combinazione di arrossamento, gonfiore e \nindurimento, calore al tatto e dolenzia della zona interessata \n• Aree più comunemente interessate: gambe e viso\n• Possono essere presenti febbre (> 38,0 °C) e altri segni di\ninfezione sistemica \n• L’arrossamento da solo può non indicare infezione"
+        },
+        {
+          "page": 72,
+          "retrieval_distance": 0.3031330108642578,
+          "text": "passage: Infezioni dentali e del cavo orale\nPagina 2 di 3\nDiagnosi\nManifestazione clinica\nAscesso dentale: \n• Dolore dentale acuto, grave e persistente e localizzato\nche può irradiarsi all'orecchio, alla mascella e al collo\n• Spesso presenti dolenzia dentale (es. alla masticazione)\ne gonfiore della guancia sopra il dente interessato\n• Se non trattata, l'infezione può diffondersi e presentarsi\ncon segni di cellulite intorno agli occhi o alla gola, febbre \n(>38,0°C), tachicardia e linfoadenopatia\nPericoronite:\n• Tessuto gengivale infiammato e gonfio che circonda un\ndente parzialmente erotto\n• Normalmente non sono necessari antibiotici, tuttavia, in\npresenza di infezione, questa deve essere attentamente \nmonitorata a causa del rischio di diffusione rapida, \ncausando difficoltà ad aprire la bocca, deglutire o respirare\n• La cellulite del collo (es. angina di Ludwig) è\nun'emergenza medica"
+        }
+      ]
+    }
+  },
+  "FAR_003": {
+    "response_text": "{\n  \"antibiotic_needed\": true,\n  \"active_ingredient\": \"Cefalexina o Claritromicina\",\n  \"reasoning\": \"La paziente di 39 anni presenta tutti e 4 i criteri clinici per la faringite batterica: febbre > 38,0 °C (38,6 °C), assenza di tosse, essudato tonsillare e linfoadenite cervicale anteriore dolente (pagine 51, 53, 55). In presenza di queste caratteristiche cliniche, la linea guida indica il trattamento antibiotico (pagine 51 e 53). Data l'allergia riferita alla penicillina (orticaria), tra le opzioni terapeutiche indicate nelle linee guida per gli adulti con questo profilo figurano i farmaci di seconda scelta come Cefalexina o Claritromicina (pagina 51).\",\n  \"evidence_pages\": [\n    51,\n    53,\n    55\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": true,
+    "active_ingredient": "Cefalexina o Claritromicina",
+    "reasoning": "La paziente di 39 anni presenta tutti e 4 i criteri clinici per la faringite batterica: febbre > 38,0 °C (38,6 °C), assenza di tosse, essudato tonsillare e linfoadenite cervicale anteriore dolente (pagine 51, 53, 55). In presenza di queste caratteristiche cliniche, la linea guida indica il trattamento antibiotico (pagine 51 e 53). Data l'allergia riferita alla penicillina (orticaria), tra le opzioni terapeutiche indicate nelle linee guida per gli adulti con questo profilo figurano i farmaci di seconda scelta come Cefalexina o Claritromicina (pagina 51).",
+    "evidence_pages": [
+      51,
+      53,
+      55
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_003",
+        "doctor_note": "\nPaziente di 39 anni presenta febbre fino a 38,6°C e\nodinofagia da 3 giorni.\n\nNega tosse e rinorrea.\n\nAll'esame obiettivo sono presenti essudato tonsillare\nbilaterale e linfonodi cervicali anteriori dolenti.\n\nRiferisce allergia alla penicillina con precedente\norticaria.\n\nNon ha assunto antibiotici recentemente.\n",
+        "ehr": {
+          "age": 39,
+          "sex": "femmina",
+          "region": "Lombardia",
+          "allergies": [
+            {
+              "drug": "penicillina",
+              "reaction": "orticaria"
+            }
+          ],
+          "previous_antibiotics": [],
+          "comorbidities": []
+        },
+        "clinical_features": {},
+        "regional_context": {
+          "region": "Lombardia",
+          "antibiotic_pressure": 1.0,
+          "antibiotic_pressure_level": "high"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 39 anni presenta febbre fino a 38,6°C e\nodinofagia da 3 giorni.\n\nNega tosse e rinorrea.\n\nAll'esame obiettivo sono presenti essudato tonsillare\nbilaterale e linfonodi cervicali anteriori dolenti.\n\nRiferisce allergia alla penicillina con precedente\norticaria.\n\nNon ha assunto antibiotici recentemente.\n\netà: 39 anni\nsesso: femmina\nallergie: [{'drug': 'penicillina', 'reaction': 'orticaria'}]",
+      "guideline_evidence": [
+        {
+          "page": 53,
+          "retrieval_distance": 0.2752436697483063,
+          "text": "passage: Febbre > 38,0ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \nTrattamento antibiotico \nTutti i dosaggi si intendono per una funzionalità renale normale. \nGli antibiotici sono elencati in ordine alfabetico e devono essere \ntutti considerati come pari opzioni di trattamento se non \ndiversamente indicato \nPrima scelta \nTrattamento sintomatico \nI medicinali sono elencati in ordine alfabetico e devono essere \nconsiderati come pari opzioni di trattamento \nAmoxicillina 80-90 mg/kg/die ORALE \n• Fasce di peso per somministrazione orale:\nACCESS \nOPPURE \nParacetamolo (acetaminofene) \n• Controllo del dolore/trattamento antipiretico:\n10-15 mg/kg q6h\n• Fasce di peso per somministrazione orale:\nOPPURE \nFenossimetilpenicillina 10-15 mg/kg/dose \n(16 000-24 000 UI/kg/dose) q6-8h ORALE \nSeconda scelta \nCefalexina 25 mg/kg/dose q12h ORALE"
+        },
+        {
+          "page": 135,
+          "retrieval_distance": 0.2936192452907562,
+          "text": "passage: Le caratteristiche cliniche ben consolidate della PAC includono una combinazione di nuova insorgenza (meno di 2 \nsettimane) di sintomi, peggioramento della tosse con o senza produzione di espettorato, dispnea (difficoltà nella \nrespirazione), tachipnea (tassi respiratori anormali per diagnosticare una tachipnea variano con l’età), ridotta \nsaturazione di ossigeno, crepitazioni su auscultazione polmonare, o dolore toracico o malessere generale senza una \nspiegazione alternativa. Di solito è presente febbre ≥ 38,0 °C per 3-4 giorni, ma può essere assente, specialmente \nnegli anziani. Caratteristiche extrapolmonari come confusione o disorientamento possono essere i sintomi principali \nnegli anziani, nei pazienti immunocompromessi e nei bambini malnutriti. La gravità dei segni e dei sintomi può \nManuale antibiotici AWaRe (Access, Watch, Reserve)"
+        },
+        {
+          "page": 51,
+          "retrieval_distance": 0.29383280873298645,
+          "text": "passage: febbre reumatica: \n• Basso rischio di RF: 5 giorni\n• Alto rischio di RF: 10 giorni\nNota: quando si usano claritromicina o cefalexina la \ndurata del trattamento è sempre 5 giorni \nACCESS \nSeconda scelta \nCefalexina 500 mg q8h ORALE \nACCESS \nClaritromicina 500 mg q12h ORALE \nWATCH \nADULTI \n \n \n \n \n \nOPPURE \nFebbre > 38,0 ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \n-hVOJDB\u0001JOEJDB[JPOF\u0001DIJBSB\u0001QFS\u0001JM\u0001USBUUBNFOUP\u0001BOUJCJPUJDP\u0001Ò\u0001EJ\u0001\nSJEVSSF\u0001MB\u0001QSPCBCJMJUË\u0001EJ\u0001TWJMVQQBSF\u0001GFCCSF\u0001SFVNBUJDB\u0001JO\u0001\nDPOUFTUJ\u0001EJ\u0001FOEFNJB\u0001\tUVUUBWJB\r\u0001EPQP\u0001J\u0001\u0013\u0012\u0001BOOJ\u0001JM\u0001SJTDIJP\u0001EJ\u00013'\u0001Ò\u0001\nNJOPSF\n\u000f\u0001\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n51\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 46,
+          "retrieval_distance": 0.29495102167129517,
+          "text": "passage: trattamento antibiotico, specialmente nei bambini di età superiore ai 2 anni.  \nI casi non gravi di solito presentano sintomi lievi, spesso dolore a un orecchio e febbre lieve (< 39,0 °C), che migliora \ncon gli antipiretici. È appropriato un approccio di vigile attesa con gestione sintomatica (ovvero analgesici e \nantipiretici) (Tabella 5.2). La vigile attesa comporta un attento monitoraggio del bambino da parte degli operatori \nsanitari, con istruzioni per chiedere assistenza in caso di peggioramento della febbre, dolore o persistenza dei \nsintomi. \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n5. Otite media acuta\n46\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 41,
+          "retrieval_distance": 0.2979786992073059,
+          "text": "passage: 5. Otite media acuta  \n \nMessaggi chiave \n \nGli antibiotici non sono necessari nella maggior parte dei casi. \n \nIl trattamento sintomatico da solo (controllo del dolore e della febbre con un attento follow-up) è appropriato nei casi \nlievi, specialmente nei bambini > 2 anni. \n \nIl trattamento antibiotico può essere preso in considerazione in casi selezionati (es. sintomi gravi, immunosoppressione o \notite bilaterale nei bambini < 2 anni). \n \nL’amoxicillina ha una buona attività contro lo Streptococcus pneumoniae, l’agente patogeno batterico più comune \ndell’otite media acuta. \n \nDosi più elevate di amoxicillina sono efficaci contro i ceppi più resistenti di Streptococcus pneumoniae. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti) \n \nPocket book of hospital care for children: guidelines for the management of common childhood illnesses, 2013 (31). \n"
+        },
+        {
+          "page": 42,
+          "retrieval_distance": 0.2992686927318573,
+          "text": "passage: Otite media acuta \nADULTI \nTrattamento \nConsiderazioni cliniche \nImportante: La maggior parte dei casi può essere \ntrattata in modo sintomatico senza trattamento \nantibiotico \n• Istruire i pazienti a monitorare i sintomi e riferire se\npeggiorano o persistono dopo alcuni giorni\nGli antibiotici vanno presi in considerazione se: \n• Sintomi gravi (es. importante malessere generale, dolore\nall'orecchio nonostante gli analgesici, febbre ≥ 39,0 °C)\nTrattamento sintomatico \nI medicinali sono elencati in ordine alfabetico e devono essere \ntutti considerati come pari opzioni di trattamento. \nIbuprofene 200-400 mg q6-8h (Max 2,4 g/die) \nOPPURE \nParacetamolo (acetaminofene) 500 mg-1 g q4-\n6h (Max 4 g/die) \n• Insufficienza epatica/cirrosi: Max 2 g/die\nDurata del trattamento antibiotico \n5 giorni \nTrattamento antibiotico \nIl trattamento antibiotico non è richiesto nella grande"
+        },
+        {
+          "page": 67,
+          "retrieval_distance": 0.300750732421875,
+          "text": "passage: Il trattamento antibiotico può essere preso in considerazione in alcuni casi, come l’esordio in forma grave dei \nsintomi, in pazienti con comorbosità o a maggior rischio di complicanze (vedere le opzioni antibiotiche nella Tabella \n7.3). L’esordio in forma grave è definito come febbre ≥ 39,0 °C e secrezione nasale purulenta o dolore facciale per \nalmeno 3-4 giorni consecutivi (71). La decisione di trattare con antibiotici i pazienti con comorbosità croniche deve \nessere sempre valutata caso per caso. Le patologie concomitanti rilevanti da considerare sono le neoplasie croniche \ne l’immunodeficienza. \nIl trattamento antibiotico potrebbe essere preso in considerazione anche nei casi con segni e sintomi d’allarme \n(“bandiera rossa”) indicativi di un’infezione complicata, come tossicità sistemica, febbre persistente ≥ 39,0 °C,"
+        },
+        {
+          "page": 213,
+          "retrieval_distance": 0.3033910095691681,
+          "text": "passage: • Tardiva: >2 anni (comprende la fase latente tardiva e le\ninfezioni terziarie)\n• Manifestazione clinica (vedere sotto)\nPatogeno \nTreponema pallidum sottospecie pallidum, batterio del phylum \nSpirochaetes \n• A crescita lenta, di difficile coltura in vitro, sottile\nDiagnosi \nTest microbiologici \nManifestazione clinica \nSifilide precoce \n• Infezione primaria: spesso asintomatica, lesione ulcerativa\nnon dolorosa localizzata con margini induriti (solitamente su\ngenitali, bocca o retto) +/- linfoadenopatia locale\n• Infezione secondaria:\n• manifestazioni cutanee e delle mucose sul tronco e\nagli arti, compresi palmi delle mani e piante dei\npiedi\n• eruzione cutanea comunemente maculopapulare e non\nirritante\n• possibili lesioni sulle mucose di bocca/perineo\n• febbre (≥ 38,0 ºC), linfoadenopatia generalizzata e\nmalessere\n• possibile meningite, epatite e coinvolgimento\noculare\nSifilide tardiva"
+        },
+        {
+          "page": 37,
+          "retrieval_distance": 0.30527037382125854,
+          "text": "passage: I medicinali sono elencati in ordine alfabetico e devono \nessere considerati come pari opzioni di trattamento.\n7rattamento antiEiotico\n,l tUattaPento antiEiotiFo QRQ\u0003ª\u0003UDFFRPDQGDWR\u0003H\u0003GHYH\u0003\nHVVHUH\u0003HYLWDWR in Tuanto non Fi Vono evidenze di EeneIiFio \nFliniFo ViJniIiFativo e Fڕª UiVFKio di eIIetti FollateUali deJli \nantiEiotiFi\n•\n•\n3aracetamolo \u000bacetaminoIene\f                \n        \u0016\u0010\u001f\u0019 NJ   \u0019\u0013 PJ T\u0019K\n      \u0019\u0010\u001f\u0014\u0013 NJ  \u0014\u0013\u0013 PJ T\u0019K\n    \u0014\u0013\u0010\u001f\u0014\u0018 NJ  \u0014\u0018\u0013 PJ T\u0019K\n    \u0014\u0018\u0010\u001f\u0015\u0013 NJ   \u0015\u0013\u0013 PJ T\u0019K\n\u0018\u0013\u0013 PJ\u0010\u0014 J T\u0017\u0010\u0019K 0a[ \u0017 J\u0012die o \u0015 \nJ\u0012die Ve inVuIIiFienza epatiFa\u0012FiUUoVi\f\n     \u0015\u0013\u0010\u001f\u0016\u0013 NJ  \u0016\u0013\u0013 PJ T\u0019K\n   ݭ\u0016\u0013 NJ\nOPPURE \u0001           \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n4. Bronchite\n37\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 55,
+          "retrieval_distance": 0.30602478981018066,
+          "text": "passage: Segni e sintomi rilevanti \nPunteggio \nFebbre > 38,0 °C \n1 \nAssenza di tosse \n1 \nLinfoadenite cervicale anteriore dolente \n1 \nEssudati tonsillari \n1 \nPunteggio totale \nProbabilità di infezione da Streptococcus pyogenes (%) \n0 \n1–2.5 \n1 \n5–10 \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n55\nTORNA ALL'INDICE"
+        }
+      ]
+    }
+  },
+  "FAR_004": {
+    "response_text": "{\n  \"antibiotic_needed\": false,\n  \"active_ingredient\": null,\n  \"reasoning\": \"La paziente di 67 anni presenta quadro clinico caratterizzato da irritazione alla gola, tosse produttiva, rinorrea, temperatura corporea di 37,2°C, assenza di essudato tonsillare e assenza di linfoadenopatia cervicale dolente. Calcolando il punteggio clinico di Centor, la paziente ottiene 0 punti (assenza di febbre > 38,0°C, presenza di tosse, assenza di adenopatia cervicale dolente, assenza di essudato tonsillare). Secondo le linee guida (pagine 51 e 53), per un punteggio Centor di 0-2 l'infezione da Streptococco di gruppo A (GAS) è improbabile ed è raccomandato esclusivamente il trattamento sintomatico, senza indicazione a terapia antibiotica.\",\n  \"evidence_pages\": [\n    50,\n    51,\n    53,\n    55\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": false,
+    "active_ingredient": null,
+    "reasoning": "La paziente di 67 anni presenta quadro clinico caratterizzato da irritazione alla gola, tosse produttiva, rinorrea, temperatura corporea di 37,2°C, assenza di essudato tonsillare e assenza di linfoadenopatia cervicale dolente. Calcolando il punteggio clinico di Centor, la paziente ottiene 0 punti (assenza di febbre > 38,0°C, presenza di tosse, assenza di adenopatia cervicale dolente, assenza di essudato tonsillare). Secondo le linee guida (pagine 51 e 53), per un punteggio Centor di 0-2 l'infezione da Streptococco di gruppo A (GAS) è improbabile ed è raccomandato esclusivamente il trattamento sintomatico, senza indicazione a terapia antibiotica.",
+    "evidence_pages": [
+      50,
+      51,
+      53,
+      55
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_004",
+        "doctor_note": "\nPaziente di 67 anni presenta irritazione alla gola da\n2 giorni associata a tosse produttiva e rinorrea.\n\nTemperatura 37,2°C.\n\nNega febbre, disfagia importante e dolore cervicale.\n\nAll'esame obiettivo: lieve eritema faringeo, senza\nessudato tonsillare e senza adenopatie cervicali\ndolenti.\n\nAnamnesi positiva per diabete mellito tipo 2.\n",
+        "ehr": {
+          "age": 67,
+          "sex": "femmina",
+          "region": "Veneto",
+          "allergies": [],
+          "previous_antibiotics": [],
+          "comorbidities": [
+            "diabete mellito tipo 2"
+          ]
+        },
+        "clinical_features": {},
+        "regional_context": {
+          "region": "Veneto",
+          "antibiotic_pressure": 0.49546522109770796,
+          "antibiotic_pressure_level": "high"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 67 anni presenta irritazione alla gola da\n2 giorni associata a tosse produttiva e rinorrea.\n\nTemperatura 37,2°C.\n\nNega febbre, disfagia importante e dolore cervicale.\n\nAll'esame obiettivo: lieve eritema faringeo, senza\nessudato tonsillare e senza adenopatie cervicali\ndolenti.\n\nAnamnesi positiva per diabete mellito tipo 2.\n\netà: 67 anni\nsesso: femmina\ncomorbidità: diabete mellito tipo 2",
+      "guideline_evidence": [
+        {
+          "page": 50,
+          "retrieval_distance": 0.26840001344680786,
+          "text": "passage: Faringite \nPagina 1 di 2 \nADULTI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (la maggior parte dei casi)\n• Virus di Epstein Barr (raramente)\nBatteri:\n• Streptococcus di gruppo A (5-10% negli adulti)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Infezione acuta da HIV e altre malattie sessualmente\ntrasmesse (sifilide, gonorrea) \n• Toxoplasmosi acuta\n• Difterite\nDiagnosi \n0aniIestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, mal di\ntesta e mialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei (vedi \"Sistema \ndi punteggio clinico Centor\") \nTest microbiologici\nBassa probabilità di Streptococcus  di gruppo A(GAS)"
+        },
+        {
+          "page": 52,
+          "retrieval_distance": 0.2921687364578247,
+          "text": "passage: Faringite \nPagina 1 di 2 \nBAMBINI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (maggior parte dei casi)\n• Virus di Epstein-Barr\nBatteri:\n• Streptococcus di gruppo A (20-30% nei\nbambini)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Toxoplasmosi acuta\n• Difterite\nNon infettive (rare): \n• Inquinamento\n• Allergeni\n• Fumo\nDiagnosi \nManifestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, cefalea e\nmialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei \nTest \nBassa probabilità di Streptococcus di gruppo A(GAS) \n(punteggio Centor 0-2): \n• Test di solito non necessari\n0aggiore probabilità di essere causata da G$S"
+        },
+        {
+          "page": 53,
+          "retrieval_distance": 0.2936036288738251,
+          "text": "passage: OPPURE \nFaringite \nPagina 2 di 2 \nSistema di punteggio clinico Centor\nPunteggio 0-2 \n• Improbabile faringite da GAS\n• Solo trattamento sintomatico\nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con bassa prevalenza di RF) \n• Il trattamento antibiotico può essere\nsospeso\nanche in casi di probabile faringite da GAS \nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con prevalenza medio/alta di RF) \n• Trattamento antibiotico raccomandato\nSegni e Sintomi \n(1 punto ciascuno) \n• Questo sistema può aiutare a indicare\nl'origine dell'infezione (batterica o virale)\ne se sono necessari antibiotici\n• Tuttavia, anche con un punteggio di 4, la \nprobabilità di infezione da GAS è solo \ndel 50%; inoltre questo punteggio è stato \nvalidato solo in contesti ad alto reddito\nFebbre > 38,0ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \nTrattamento antibiotico"
+        },
+        {
+          "page": 55,
+          "retrieval_distance": 0.2960329055786133,
+          "text": "passage: Segni e sintomi rilevanti \nPunteggio \nFebbre > 38,0 °C \n1 \nAssenza di tosse \n1 \nLinfoadenite cervicale anteriore dolente \n1 \nEssudati tonsillari \n1 \nPunteggio totale \nProbabilità di infezione da Streptococcus pyogenes (%) \n0 \n1–2.5 \n1 \n5–10 \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n55\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 72,
+          "retrieval_distance": 0.3013957440853119,
+          "text": "passage: Infezioni dentali e del cavo orale\nPagina 2 di 3\nDiagnosi\nManifestazione clinica\nAscesso dentale: \n• Dolore dentale acuto, grave e persistente e localizzato\nche può irradiarsi all'orecchio, alla mascella e al collo\n• Spesso presenti dolenzia dentale (es. alla masticazione)\ne gonfiore della guancia sopra il dente interessato\n• Se non trattata, l'infezione può diffondersi e presentarsi\ncon segni di cellulite intorno agli occhi o alla gola, febbre \n(>38,0°C), tachicardia e linfoadenopatia\nPericoronite:\n• Tessuto gengivale infiammato e gonfio che circonda un\ndente parzialmente erotto\n• Normalmente non sono necessari antibiotici, tuttavia, in\npresenza di infezione, questa deve essere attentamente \nmonitorata a causa del rischio di diffusione rapida, \ncausando difficoltà ad aprire la bocca, deglutire o respirare\n• La cellulite del collo (es. angina di Ludwig) è\nun'emergenza medica"
+        },
+        {
+          "page": 135,
+          "retrieval_distance": 0.3019954264163971,
+          "text": "passage: Le caratteristiche cliniche ben consolidate della PAC includono una combinazione di nuova insorgenza (meno di 2 \nsettimane) di sintomi, peggioramento della tosse con o senza produzione di espettorato, dispnea (difficoltà nella \nrespirazione), tachipnea (tassi respiratori anormali per diagnosticare una tachipnea variano con l’età), ridotta \nsaturazione di ossigeno, crepitazioni su auscultazione polmonare, o dolore toracico o malessere generale senza una \nspiegazione alternativa. Di solito è presente febbre ≥ 38,0 °C per 3-4 giorni, ma può essere assente, specialmente \nnegli anziani. Caratteristiche extrapolmonari come confusione o disorientamento possono essere i sintomi principali \nnegli anziani, nei pazienti immunocompromessi e nei bambini malnutriti. La gravità dei segni e dei sintomi può \nManuale antibiotici AWaRe (Access, Watch, Reserve)"
+        },
+        {
+          "page": 213,
+          "retrieval_distance": 0.30243635177612305,
+          "text": "passage: • febbre (≥ 38,0 ºC), linfoadenopatia generalizzata e\nmalessere\n• possibile meningite, epatite e coinvolgimento\noculare\nSifilide tardiva \n• Infezione terziaria: possibile interessamento di apparati\ndiversi\n• sistema cardiovascolare: di solito, aortite\n• cute/tessuti molli/ossa: lesioni nodulari (gomma\nluetica)\n• sistema nervoso centrale: demenza spesso\nprogressiva, sintomi psichiatrici, problemi di\ncoordinamento dei movimenti\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta sifilide\ndevono essere sottoposti a test anche per altre IST\n(es. HIV, infezione gonococcica)\nMetodi di rilevamento diretto \n• È possibile rilevare l’agente patogeno nei campioni\nottenuti da lesioni cutanee e tissutali\nTest sierologici"
+        },
+        {
+          "page": 37,
+          "retrieval_distance": 0.3039841651916504,
+          "text": "passage: BronchitH\n%$0%,1,\nDiagnosi\n0aniIeVta]ione clinica\n(VoUdio aFuto della toVVe di duUata ! \u0018 JioUni\u000f VolitaPente \nFon UinoUUea e IeEEUe lieve\u000f Venza VeJni FliniFi di polPonite\n'i Volito patoloJia lieve\u001e la toVVe di Volito duUa \u0014\u0010\u0016 \nVettiPane\nImportante: , VintoPi poVVono VovUappoUVi alla \npolPonite e FoPpoUtaUe un tUattaPento inappUopUiato \nFon antiEiotiFi\u00114ueVto deve eVVeUe evitato Fon un'attenta \nvalutazione del paziente \n• Bronchite:  PaniIeVtazione Peno JUave\u000f di Volito\nautoliPitante \u000bPa la toVVe pu´ UiFKiedeUe VettiPane peU\nUiVolveUVi\f\n• 3olmonite \u000bYedi inIoJraIica \u00053olmonite acTXiVita\nin comXnit¢\u0005\f\u001d PaniIeVtazione pi» JUave Fon\ndiVpnea e VeJni ViVtePiFi di inIezione \u000beV\u0011 auPento\ndella IUeTuenza FaUdiaFa e UeVpiUatoUia\f\n'eIini]ione\n,nIiaPPazione autoliPitante della tUaFKea e dei EUonFKi \nFaUatteUizzata da toVVe peUViVtente \u000e\u0012\u0010 IeEEUe\u000f JeneUalPente \nFauVata da un'inIezione viUale"
+        },
+        {
+          "page": 51,
+          "retrieval_distance": 0.30617469549179077,
+          "text": "passage: Faringite \nPagina 2 di 2 \nSistema di punteggio clinico Centor \nPunteggio 0-2 \n• Improbabile faringite da GAS\n• Solo trattamento sintomatico\nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con bassa prevalenza di RF) \n• Il trattamento antibiotico può essere sospeso\nanche in casi di probabile faringite da GAS\nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con prevalenza medio/alta di RF) \n• Trattamento antibiotico raccomandato\nSegni e Sintomi \n(1 punto ciascuno) \nQuesto sistema può aiutare a indicare\nl'origine dell'infezione (batterica o virale) e\nse sono necessari antibiotici\nTuttavia, anche con un punteggio elevato di 4,\nla probabilità di infezione da GAS è solo del\n50%; inoltre questo punteggio è stato validato\nsolo in contesti ad alto reddito\nTrattamento \nTrattamento sintomatico \nTrattamento antibiotico \nI medicinali sono elencati in ordine alfabetico e devono"
+        },
+        {
+          "page": 75,
+          "retrieval_distance": 0.3068576753139496,
+          "text": "passage: Infezioni dentali e del cavo orale \nPagina 2 di 3 \nDiagnosi \nManifestazione clinica\n$scesso dentale: \n• Dolore dentale acuto, grave e persistente e localizzato\nche può irradiarsi all'orecchio, alla mascella e al collo \n• Spesso presenti dolenzia dentale (es. alla masticazione)\ne gonfiore della guancia sopra il dente interessato \n• Se non trattata, l'infezione può diffondersi e presentarsi\ncon segni di cellulite intorno agli occhi o alla gola, febbre \n(>38,0°C), tachicardia e linfoadenopatia \nPericoronite: \n• Tessuto gengivale infiammato e gonfio che circonda un\ndente parzialmente erotto \n• Normalmente non sono necessari antibiotici, tuttavia, in\npresenza di infezione, questa deve essere attentamente \nmonitorata a causa del rischio di diffusione rapida, \ncausando difficoltà ad aprire la bocca, deglutire o respirare \n• La cellulite del collo (es. angina di Ludwig) è\nun'emergenza medica"
+        }
+      ]
+    }
+  },
+  "FAR_005": {
+    "response_text": "{\n  \"antibiotic_needed\": null,\n  \"active_ingredient\": null,\n  \"reasoning\": \"Il paziente presenta un quadro clinico con febbre > 38,0 °C (38,2 °C, +1 punto), assenza di tosse (+1 punto), essudato tonsillare (+1 punto) e assenza di linfoadenite cervicale anteriore dolente (0 punti), per un punteggio Centor totale pari a 3. Secondo la linea guida (passaggio 4, pagina 53), per un punteggio Centor di 3-4 la decisione sulla prescrizione dell'antibiotico dipende dal rischio/prevalenza di febbre reumatica (RF): nei contesti a basso rischio/prevalenza di RF il trattamento antibiotico può essere sospeso, mentre nei contesti a prevalenza medio/alta di RF il trattamento antibiotico è raccomandato. Poiché il livello di rischio o prevalenza di febbre reumatica del paziente/area non è indicato nei dati clinici forniti, non è possibile stabilire se l'antibiotico sia necessario.\",\n  \"evidence_pages\": [\n    53,\n    55\n  ],\n  \"missing_information\": [\n    \"Livello di rischio o prevalenza di febbre reumatica (RF) nella popolazione o contesto del paziente\"\n  ],\n  \"evidence_sufficient\": false\n}",
+    "antibiotic_needed": null,
+    "active_ingredient": null,
+    "reasoning": "Il paziente presenta un quadro clinico con febbre > 38,0 °C (38,2 °C, +1 punto), assenza di tosse (+1 punto), essudato tonsillare (+1 punto) e assenza di linfoadenite cervicale anteriore dolente (0 punti), per un punteggio Centor totale pari a 3. Secondo la linea guida (passaggio 4, pagina 53), per un punteggio Centor di 3-4 la decisione sulla prescrizione dell'antibiotico dipende dal rischio/prevalenza di febbre reumatica (RF): nei contesti a basso rischio/prevalenza di RF il trattamento antibiotico può essere sospeso, mentre nei contesti a prevalenza medio/alta di RF il trattamento antibiotico è raccomandato. Poiché il livello di rischio o prevalenza di febbre reumatica del paziente/area non è indicato nei dati clinici forniti, non è possibile stabilire se l'antibiotico sia necessario.",
+    "evidence_pages": [
+      53,
+      55
+    ],
+    "missing_information": [
+      "Livello di rischio o prevalenza di febbre reumatica (RF) nella popolazione o contesto del paziente"
+    ],
+    "evidence_sufficient": false,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_005",
+        "doctor_note": "\nPaziente di 32 anni presenta mal di gola e febbre da\n2 giorni. Temperatura 38,2°C.\n\nNega tosse e rinorrea.\n\nAll'esame obiettivo è presente essudato tonsillare,\nma i linfonodi cervicali anteriori non risultano\nchiaramente dolenti.\n\nNessuna allergia farmacologica nota.\nNessuna terapia antibiotica recente.\n",
+        "ehr": {
+          "age": 32,
+          "sex": "maschio",
+          "region": "Toscana",
+          "allergies": [],
+          "previous_antibiotics": [],
+          "comorbidities": []
+        },
+        "clinical_features": {},
+        "regional_context": {
+          "region": "Toscana",
+          "antibiotic_pressure": 0.42775906495047267,
+          "antibiotic_pressure_level": "medium"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 32 anni presenta mal di gola e febbre da\n2 giorni. Temperatura 38,2°C.\n\nNega tosse e rinorrea.\n\nAll'esame obiettivo è presente essudato tonsillare,\nma i linfonodi cervicali anteriori non risultano\nchiaramente dolenti.\n\nNessuna allergia farmacologica nota.\nNessuna terapia antibiotica recente.\n\netà: 32 anni\nsesso: maschio",
+      "guideline_evidence": [
+        {
+          "page": 50,
+          "retrieval_distance": 0.28431177139282227,
+          "text": "passage: Faringite \nPagina 1 di 2 \nADULTI \n \nInfiammazione della faringe caratterizzata da mal di gola e \ndeglutizione dolorosa \nVirus (> 80% dei casi): \n• Virus respiratori (la maggior parte dei casi)\n• Virus di Epstein Barr (raramente)\nBatteri:\n• Streptococcus di gruppo A (5-10% negli adulti)\n• Streptococchi (gruppo C e G)\nAltre cause infettive: \n• Infezione acuta da HIV e altre malattie sessualmente\ntrasmesse (sifilide, gonorrea) \n• Toxoplasmosi acuta\n• Difterite\nDiagnosi \n0aniIestazione clinica\nMal di gola e deglutizione dolorosa \n• Virale: i sintomi corrispondono a quelli di un'infezione\nvirale delle vie aeree superiori, con tosse, mal di\ntesta e mialgia \n• Batterica: presentazione più grave, febbre (>38,0°C),\nlinfonodi cervicali dolenti ed essudati faringei (vedi \"Sistema \ndi punteggio clinico Centor\") \nTest microbiologici\nBassa probabilità di Streptococcus  di gruppo A(GAS)"
+        },
+        {
+          "page": 135,
+          "retrieval_distance": 0.28478577733039856,
+          "text": "passage: Le caratteristiche cliniche ben consolidate della PAC includono una combinazione di nuova insorgenza (meno di 2 \nsettimane) di sintomi, peggioramento della tosse con o senza produzione di espettorato, dispnea (difficoltà nella \nrespirazione), tachipnea (tassi respiratori anormali per diagnosticare una tachipnea variano con l’età), ridotta \nsaturazione di ossigeno, crepitazioni su auscultazione polmonare, o dolore toracico o malessere generale senza una \nspiegazione alternativa. Di solito è presente febbre ≥ 38,0 °C per 3-4 giorni, ma può essere assente, specialmente \nnegli anziani. Caratteristiche extrapolmonari come confusione o disorientamento possono essere i sintomi principali \nnegli anziani, nei pazienti immunocompromessi e nei bambini malnutriti. La gravità dei segni e dei sintomi può \nManuale antibiotici AWaRe (Access, Watch, Reserve)"
+        },
+        {
+          "page": 55,
+          "retrieval_distance": 0.28527361154556274,
+          "text": "passage: Segni e sintomi rilevanti \nPunteggio \nFebbre > 38,0 °C \n1 \nAssenza di tosse \n1 \nLinfoadenite cervicale anteriore dolente \n1 \nEssudati tonsillari \n1 \nPunteggio totale \nProbabilità di infezione da Streptococcus pyogenes (%) \n0 \n1–2.5 \n1 \n5–10 \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n6. Faringite\n55\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 53,
+          "retrieval_distance": 0.2856449484825134,
+          "text": "passage: OPPURE \nFaringite \nPagina 2 di 2 \nSistema di punteggio clinico Centor\nPunteggio 0-2 \n• Improbabile faringite da GAS\n• Solo trattamento sintomatico\nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con bassa prevalenza di RF) \n• Il trattamento antibiotico può essere\nsospeso\nanche in casi di probabile faringite da GAS \nPunteggio 3-4 - In caso di basso rischio di RF \n(es. paesi con prevalenza medio/alta di RF) \n• Trattamento antibiotico raccomandato\nSegni e Sintomi \n(1 punto ciascuno) \n• Questo sistema può aiutare a indicare\nl'origine dell'infezione (batterica o virale)\ne se sono necessari antibiotici\n• Tuttavia, anche con un punteggio di 4, la \nprobabilità di infezione da GAS è solo \ndel 50%; inoltre questo punteggio è stato \nvalidato solo in contesti ad alto reddito\nFebbre > 38,0ºC \nNo tosse \nLinfoadenite cervicale \nanteriore dolente \nEssudati tonsillari \nTrattamento antibiotico"
+        },
+        {
+          "page": 160,
+          "retrieval_distance": 0.28947359323501587,
+          "text": "passage: febbre che richiedono il ricovero, possibilmente prima di iniziare il trattamento antibiotico. Le colture di midollo \nosseo sono il metodo diagnostico più sensibile, ma vengono effettuate molto raramente perché sono più difficili da \neseguire e invasive. Le coprocolture sono generalmente negative nelle prime fasi dell’infezione e quindi sono di uso \ndiagnostico limitato (Tabella 15.1). La reazione di Widal è un metodo ampiamente in uso nei paesi a reddito medio \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n15. Febbre tifoide (febbre enterica)\n160\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 213,
+          "retrieval_distance": 0.2895577847957611,
+          "text": "passage: • febbre (≥ 38,0 ºC), linfoadenopatia generalizzata e\nmalessere\n• possibile meningite, epatite e coinvolgimento\noculare\nSifilide tardiva \n• Infezione terziaria: possibile interessamento di apparati\ndiversi\n• sistema cardiovascolare: di solito, aortite\n• cute/tessuti molli/ossa: lesioni nodulari (gomma\nluetica)\n• sistema nervoso centrale: demenza spesso\nprogressiva, sintomi psichiatrici, problemi di\ncoordinamento dei movimenti\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta sifilide\ndevono essere sottoposti a test anche per altre IST\n(es. HIV, infezione gonococcica)\nMetodi di rilevamento diretto \n• È possibile rilevare l’agente patogeno nei campioni\nottenuti da lesioni cutanee e tissutali\nTest sierologici"
+        },
+        {
+          "page": 72,
+          "retrieval_distance": 0.2947124242782593,
+          "text": "passage: Infezioni dentali e del cavo orale\nPagina 2 di 3\nDiagnosi\nManifestazione clinica\nAscesso dentale: \n• Dolore dentale acuto, grave e persistente e localizzato\nche può irradiarsi all'orecchio, alla mascella e al collo\n• Spesso presenti dolenzia dentale (es. alla masticazione)\ne gonfiore della guancia sopra il dente interessato\n• Se non trattata, l'infezione può diffondersi e presentarsi\ncon segni di cellulite intorno agli occhi o alla gola, febbre \n(>38,0°C), tachicardia e linfoadenopatia\nPericoronite:\n• Tessuto gengivale infiammato e gonfio che circonda un\ndente parzialmente erotto\n• Normalmente non sono necessari antibiotici, tuttavia, in\npresenza di infezione, questa deve essere attentamente \nmonitorata a causa del rischio di diffusione rapida, \ncausando difficoltà ad aprire la bocca, deglutire o respirare\n• La cellulite del collo (es. angina di Ludwig) è\nun'emergenza medica"
+        },
+        {
+          "page": 67,
+          "retrieval_distance": 0.2981536090373993,
+          "text": "passage: Il trattamento antibiotico può essere preso in considerazione in alcuni casi, come l’esordio in forma grave dei \nsintomi, in pazienti con comorbosità o a maggior rischio di complicanze (vedere le opzioni antibiotiche nella Tabella \n7.3). L’esordio in forma grave è definito come febbre ≥ 39,0 °C e secrezione nasale purulenta o dolore facciale per \nalmeno 3-4 giorni consecutivi (71). La decisione di trattare con antibiotici i pazienti con comorbosità croniche deve \nessere sempre valutata caso per caso. Le patologie concomitanti rilevanti da considerare sono le neoplasie croniche \ne l’immunodeficienza. \nIl trattamento antibiotico potrebbe essere preso in considerazione anche nei casi con segni e sintomi d’allarme \n(“bandiera rossa”) indicativi di un’infezione complicata, come tossicità sistemica, febbre persistente ≥ 39,0 °C,"
+        },
+        {
+          "page": 105,
+          "retrieval_distance": 0.29924213886260986,
+          "text": "passage: • È importante la diagnosi differenziale con\ncellulite orbitale (movimenti oculari limitati, \nprotrusione dell'occhio e diminuzione della vista) \nAgenti patogeni più probabili \nBatteri: \n• Staphylococcus aureus (compresi ceppi MRSA)\n• Streptococcus pneumoniae\n• Haemophilus influenzae\n• Moraxella catarrhalis\n• Anaerobi sospettati se vi è anamnesi di morso animale o\numano o se è presente necrosi \nVirus: \n• Considerare un virus (es. virus dell'herpes simplex o virus\nvaricella-zoster) se è presente un'eruzione cutanea \nvescicolare \nTest microbiologici\n• Di solito non necessari\n• Le colture sono difficili da ottenere e le emoculture,\nquando eseguite, sono di solito negative \nAltri test di laboratorio \nDi solito non necessari \nImaging \nConsiderare una TAC delle orbite e dei seni per valutare \ncoinvolgimento orbitale e possibili complicanze (es. ascesso) \nBAMBINI"
+        },
+        {
+          "page": 75,
+          "retrieval_distance": 0.30002331733703613,
+          "text": "passage: Infezioni dentali e del cavo orale \nPagina 2 di 3 \nDiagnosi \nManifestazione clinica\n$scesso dentale: \n• Dolore dentale acuto, grave e persistente e localizzato\nche può irradiarsi all'orecchio, alla mascella e al collo \n• Spesso presenti dolenzia dentale (es. alla masticazione)\ne gonfiore della guancia sopra il dente interessato \n• Se non trattata, l'infezione può diffondersi e presentarsi\ncon segni di cellulite intorno agli occhi o alla gola, febbre \n(>38,0°C), tachicardia e linfoadenopatia \nPericoronite: \n• Tessuto gengivale infiammato e gonfio che circonda un\ndente parzialmente erotto \n• Normalmente non sono necessari antibiotici, tuttavia, in\npresenza di infezione, questa deve essere attentamente \nmonitorata a causa del rischio di diffusione rapida, \ncausando difficoltà ad aprire la bocca, deglutire o respirare \n• La cellulite del collo (es. angina di Ludwig) è\nun'emergenza medica"
+        }
+      ]
+    }
+  },
+  "UTI_001": {
+    "response_text": "{\n  \"antibiotic_needed\": true,\n  \"active_ingredient\": \"Nitrofurantoina (o Amoxicillina+acido clavulanico)\",\n  \"reasoning\": \"La paziente presenta una manifestazione clinica compatibile con infezione delle vie urinarie inferiori (disuria acuta, aumento della frequenza e dell'urgenza minzionale, dolore addominale inferiore da 2 giorni) e riscontri di laboratorio positivi (leucociti urinari ed esterasi leucocitaria positivi). Secondo le linee guida recuperate, il trattamento antibiotico è raccomandato in presenza di manifestazione clinica compatibile associata a test positivo per leucociti urinari/esterasi leucocitaria.\",\n  \"evidence_pages\": [\n    230,\n    231,\n    232\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": true,
+    "active_ingredient": "Nitrofurantoina (o Amoxicillina+acido clavulanico)",
+    "reasoning": "La paziente presenta una manifestazione clinica compatibile con infezione delle vie urinarie inferiori (disuria acuta, aumento della frequenza e dell'urgenza minzionale, dolore addominale inferiore da 2 giorni) e riscontri di laboratorio positivi (leucociti urinari ed esterasi leucocitaria positivi). Secondo le linee guida recuperate, il trattamento antibiotico è raccomandato in presenza di manifestazione clinica compatibile associata a test positivo per leucociti urinari/esterasi leucocitaria.",
+    "evidence_pages": [
+      230,
+      231,
+      232
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "UTI_001",
+        "doctor_note": "\nPaziente di 26 anni presenta da 2 giorni disuria acuta,\naumento della frequenza della minzione e urgenza minzionale.\nRiferisce lieve dolore e disagio nella parte inferiore\ndell'addome.\nNon riferisce altri disturbi genito-urinari.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n",
+        "ehr": {
+          "age": 26,
+          "sex": "femmina",
+          "region": "Toscana",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "nitrofurantoina",
+              "indication": "infezione delle vie urinarie"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": false
+        },
+        "clinical_features": {
+          "symptoms": [
+            "disuria acuta",
+            "aumento della frequenza della minzione",
+            "urgenza minzionale",
+            "dolore o disagio nella parte inferiore dell'addome"
+          ],
+          "symptom_duration_days": 2,
+          "temperature_c": 36.7,
+          "tests": {
+            "leucociti_urinari": true,
+            "esterasi_leucocitaria": true,
+            "urinocoltura": null
+          }
+        },
+        "regional_context": {
+          "region": "Toscana",
+          "antibiotic_pressure": 0.42775906495047267,
+          "antibiotic_pressure_level": "medium"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 26 anni presenta da 2 giorni disuria acuta,\naumento della frequenza della minzione e urgenza minzionale.\nRiferisce lieve dolore e disagio nella parte inferiore\ndell'addome.\nNon riferisce altri disturbi genito-urinari.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n\nadulti\ndisuria acuta, aumento della frequenza della minzione, urgenza minzionale, dolore o disagio nella parte inferiore dell'addome\nleucociti_urinari\nesterasi_leucocitaria\nurinocoltura\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 231,
+          "retrieval_distance": 0.2419188916683197,
+          "text": "passage: Infezione delle vie urinarie inferiori\nInfezione delle vie urinarie\n  Pagina 1 di 2 \nDefinizione \nDiagnosi \n\nInfezione della parte bassa delle vie urinarie (es. vescica -\ncistite)\n\nLe infezioni delle vie urinarie (IVU) nei soggetti con\nanomalie strutturali delle vie urinarie o che sono\nimmunocompromessi e nelle donne in gravidanza si\nconsiderano generalmente a rischio più elevato di\nevoluzione complicata (IVU complicate)\nManifestazione clinica \nDisuria acuta (< 1 settimana), aumento dell'urgenza e della \nfrequenza della minzione, dolore o disagio addominale \ninferiore e talvolta ematuria marcata \n• Nelle donne deve essere esclusa in primo luogo una fonte\nvaginale dei sintomi (perdita o irritazione vaginale)\n• Nei pazienti anziani con sintomi urinari pre-esistenti, i sintomi\npiù indicativi dell'infezione sono cambiamenti urinari acuti\nrispetto al basale\nAgenti patogeni più probabili"
+        },
+        {
+          "page": 236,
+          "retrieval_distance": 0.25329944491386414,
+          "text": "passage: Manifestazione clinica \nI sintomi classici di infezione delle vie urinarie inferiori comprendono una combinazione di disuria acuta (< 1 \nsettimana), aumento dell’urgenza e della frequenza della minzione, dolore o disagio addominale inferiore, e talvolta \nematuria marcata, ossia con sangue visibile nelle urine. Nelle donne, prima di stabilire una diagnosi di infezione delle \nvie urinarie inferiori, devono essere escluse le perdite vaginali o l’irritazione vaginale. Nei pazienti anziani con sintomi \nurinari preesistenti (ad esempio, incontinenza urinaria), la valutazione può essere più difficile. Tuttavia, i sintomi più \nindicativi in questi casi sono ancora i cambiamenti urinari acuti rispetto al basale. Sintomi atipici, come cadute e \nstato mentale alterato, non sono affidabili. Inoltre, urine torbide e urine maleodoranti da sole non sono segnali \nattendibili di IVU."
+        },
+        {
+          "page": 233,
+          "retrieval_distance": 0.2534058690071106,
+          "text": "passage: • L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\n• Nelle bambine, deve essere esclusa in primo luogo una\nfonte vaginale dei sintomi (secrezione o irritazione\nvaginale)\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce-stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione \n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare possibili \nanomalie sottostanti del tratto urinario \nBAMBINI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n233\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 230,
+          "retrieval_distance": 0.25559455156326294,
+          "text": "passage: 23. Infezione delle vie urinarie inferiori \n \nNota  \nIl presente capitolo affronta la cistite acuta acquisita in comunità. \n \nMessaggi chiave \n Le infezioni delle vie urinarie (IVU) sono più comuni nelle donne e aumentano con l’età e la frequenza dell’attività sessuale. \n La maggior parte delle infezioni è causata da Escherichia coli. \n L’urinocoltura deve essere considerata nei bambini e nelle persone ad alto rischio di infezioni complicate (ad esempio \nuomini, donne in gravidanza) o in caso di infezioni ricorrenti. \n Nitrofurantoina orale per 5 giorni è il principale trattamento raccomandato per le infezioni del tratto urinario inferiore. \n Nella maggior parte dei casi un’urinocoltura positiva nei pazienti asintomatici non determina il trattamento antibiotico. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti)"
+        },
+        {
+          "page": 232,
+          "retrieval_distance": 0.2595137655735016,
+          "text": "passage: Infezione delle vie urinarie inferiori\nPagina 2 di 2 \nTrattamento\nConsiderazioni cliniche\nTrattamento antibiotico\nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile e test positivo\n(leucociti urinari/esterasi leucocitaria positivi o urinocoltura \npositiva)\n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di 1-2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale\nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento \nsalvo diversa indicazione  \nAmoxicillina+acido clavulanico 500 mg+125 mg \nq8h ORALE  \nDurata del trattamento: 3-5 giorni\nACCESS\nAttivi contro alcuni isolati che producono ESBL\nOPPURE\nNitrofurantoina ORALE"
+        },
+        {
+          "page": 64,
+          "retrieval_distance": 0.2615901231765747,
+          "text": "passage: Trattamento \n        Considerazioni cliniche \n      Durata del trattamento antibiotico \n      Trattamento antibiotico \n ACCESS\nACCESS\n3-6 kg  250 di amox/dose q12h \n6-<10 kg  375 di amox/dose q12h \n10-<15 kg  500 di amox/dose q12h \n15-<20 kg  750 di amox/dose q12h\n      ≥20 kg  500 di amox/dose q8h  \no 1 g di amox/dose q12h\nNessun trattamento antibiotico \nManifestazione da lieve a moderata (durata <10 \ngiorni e tendenza al miglioramento dei sintomi):  \n•\nApproccio di vigile attesa con riduzione dei\nsintomi, senza trattamento antibiotico\n       Trattamento sintomatico \n 3- <6 kg    60 mg q6h  \n 6-<10 kg 100 mg q6h \n10-<15 kg   150 mg q6h \n15-<20 kg   200 mg q6h  \n20-<30 kg   300 mg q6h \n      ≥30 kg   500 mg-1 q4-6h \n(Max 4 g/die o 2 g/die se \ninsufficienza epatica/cirrosi) \n•\nIl trattamento serve a migliorare i sintomi, ma nella\nmaggior parte dei casi gli antibiotici hanno un"
+        },
+        {
+          "page": 61,
+          "retrieval_distance": 0.2659173011779785,
+          "text": "passage: • La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase iniziale\nlieve\nTest microbiologici\nDi solito non necessari\nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n61\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 234,
+          "retrieval_distance": 0.27480360865592957,
+          "text": "passage: Infezione delle Yie urinarie inIeriori\nPagina 2 di 2 \nTrattamento \nConsiderazioni cliniche \nTrattamento antibiotico \nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile E test positivo \n(leucociti \nurinari/esterasi \nleucocitaria \npositivi \no \nurinocoltura positiva) \n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di circa 2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se \nnon diversamente indicato \n  Amoxicillina+acido clavulanico 80-90 mg/kg/die \n ACCESS   del componente amoxicillina ORALE \n• Fasce di peso per somministrazione orale:"
+        },
+        {
+          "page": 152,
+          "retrieval_distance": 0.2774271070957184,
+          "text": "passage: Cryptosporidium spp. \nMicrosporidium spp. \nCystoisospora belli \nCytomegalovirus \nHistoplasma capsulatum \nCoccidioides spp. \nPenicillium spp. \nHIV: virus dell’immunodeficienza umana. \na Da notare che in questi casi, i pazienti ricevono spesso un trattamento antibiotico non necessario. \nb Raramente nel contesto delle infezioni diffuse in pazienti con bassa conta di CD4. \n \nManifestazione clinica \nNella diarrea acuta, il sintomo principale (durata <14 giorni) è l’emissione di feci non formate tre o più volte al giorno, \ncon o senza febbre. Possono essere presenti anche nausea, vomito, gonfiore, dolore addominale e crampi. Nella \nmaggior parte dei casi, la malattia è autolimitante. Poiché alcuni agenti patogeni causali sono endemici in alcuni \ncontesti e assenti in altri, è sempre importante considerare dove il paziente è stato infettato (compresa la storia di"
+        },
+        {
+          "page": 195,
+          "retrieval_distance": 0.27804821729660034,
+          "text": "passage: sovrapponibili a quelli dell’infezione gonococcica (la\nco-infezione è possibile ed è comune)\nSintomi più comuni: \n• Negli uomini: uretrite acuta con secrezione uretrale\n“chiara” e disuria\n• Nelle donne: perdita vaginale, dispareunia\n(rapporti sessuali dolorosi) e disuria\n• Inoltre, in entrambi i sessi:\n• Sintomi di proctite acuta accompagnata da dolore,\nprurito, secrezione e sanguinamento anale\n• Sintomi del linfogranuloma venereo (uomini >\ndonne):\n• Lesione ulcerosa o papula solitamente su genitali o\nretto, nonché linfoadenopatia inguinale o femorale\n(di solito unilaterale)\n• Lesione passa spesso inosservata nelle donne\no se localizzata nel retto\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta infezione\nurogenitale da clamidia devono essere sottoposti a test"
+        }
+      ]
+    }
+  },
+  "UTI_002": {
+    "response_text": "{\n  \"antibiotic_needed\": false,\n  \"active_ingredient\": null,\n  \"reasoning\": \"La linea guida specifica che nelle donne deve essere in primo luogo esclusa una fonte vaginale dei sintomi come perdite o irritazione vaginale (pagina 231). Nel caso in esame, la paziente riferisce un quadro prevalentemente vulvo-vaginale con prurito, irritazione e abbondanti secrezioni vaginali biancastre. Inoltre, la linea guida raccomanda il trattamento antibiotico in presenza di manifestazione clinica compatibile E test positivo per leucociti urinari, esterasi leucocitaria o urinocoltura (pagina 234). Nel profilo clinico fornito, i leucociti urinari, l'esterasi leucocitaria e l'urinocoltura sono negativi (false). Di conseguenza, non vi è indicazione alla terapia antibiotica.\",\n  \"evidence_pages\": [\n    231,\n    234\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": false,
+    "active_ingredient": null,
+    "reasoning": "La linea guida specifica che nelle donne deve essere in primo luogo esclusa una fonte vaginale dei sintomi come perdite o irritazione vaginale (pagina 231). Nel caso in esame, la paziente riferisce un quadro prevalentemente vulvo-vaginale con prurito, irritazione e abbondanti secrezioni vaginali biancastre. Inoltre, la linea guida raccomanda il trattamento antibiotico in presenza di manifestazione clinica compatibile E test positivo per leucociti urinari, esterasi leucocitaria o urinocoltura (pagina 234). Nel profilo clinico fornito, i leucociti urinari, l'esterasi leucocitaria e l'urinocoltura sono negativi (false). Di conseguenza, non vi è indicazione alla terapia antibiotica.",
+    "evidence_pages": [
+      231,
+      234
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "UTI_002",
+        "doctor_note": "\nPaziente di 34 anni presenta da 3 giorni bruciore durante\nla minzione associato a intenso prurito vaginale,\nirritazione vaginale e abbondanti secrezioni vaginali\nbiancastre.\nRiferisce che il fastidio è prevalentemente vulvo-vaginale.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie.\n",
+        "ehr": {
+          "age": 34,
+          "sex": "femmina",
+          "region": "Liguria",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "amoxicillina",
+              "indication": "faringite"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": false
+        },
+        "clinical_features": {
+          "symptoms": [
+            "bruciore durante la minzione",
+            "prurito vaginale",
+            "irritazione vaginale",
+            "secrezioni vaginali"
+          ],
+          "symptom_duration_days": 3,
+          "temperature_c": 36.6,
+          "tests": {
+            "leucociti_urinari": false,
+            "esterasi_leucocitaria": false,
+            "urinocoltura": false
+          }
+        },
+        "regional_context": {
+          "region": "Liguria",
+          "antibiotic_pressure": 0.17766896416733272,
+          "antibiotic_pressure_level": "medium"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 34 anni presenta da 3 giorni bruciore durante\nla minzione associato a intenso prurito vaginale,\nirritazione vaginale e abbondanti secrezioni vaginali\nbiancastre.\nRiferisce che il fastidio è prevalentemente vulvo-vaginale.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie.\n\nadulti\nbruciore durante la minzione, prurito vaginale, irritazione vaginale, secrezioni vaginali\nleucociti_urinari\nesterasi_leucocitaria\nurinocoltura\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 233,
+          "retrieval_distance": 0.26956725120544434,
+          "text": "passage: • L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\n• Nelle bambine, deve essere esclusa in primo luogo una\nfonte vaginale dei sintomi (secrezione o irritazione\nvaginale)\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce-stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione \n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare possibili \nanomalie sottostanti del tratto urinario \nBAMBINI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n233\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 231,
+          "retrieval_distance": 0.27445188164711,
+          "text": "passage: Infezione delle vie urinarie inferiori\nInfezione delle vie urinarie\n  Pagina 1 di 2 \nDefinizione \nDiagnosi \n\nInfezione della parte bassa delle vie urinarie (es. vescica -\ncistite)\n\nLe infezioni delle vie urinarie (IVU) nei soggetti con\nanomalie strutturali delle vie urinarie o che sono\nimmunocompromessi e nelle donne in gravidanza si\nconsiderano generalmente a rischio più elevato di\nevoluzione complicata (IVU complicate)\nManifestazione clinica \nDisuria acuta (< 1 settimana), aumento dell'urgenza e della \nfrequenza della minzione, dolore o disagio addominale \ninferiore e talvolta ematuria marcata \n• Nelle donne deve essere esclusa in primo luogo una fonte\nvaginale dei sintomi (perdita o irritazione vaginale)\n• Nei pazienti anziani con sintomi urinari pre-esistenti, i sintomi\npiù indicativi dell'infezione sono cambiamenti urinari acuti\nrispetto al basale\nAgenti patogeni più probabili"
+        },
+        {
+          "page": 230,
+          "retrieval_distance": 0.2782326340675354,
+          "text": "passage: 23. Infezione delle vie urinarie inferiori \n \nNota  \nIl presente capitolo affronta la cistite acuta acquisita in comunità. \n \nMessaggi chiave \n Le infezioni delle vie urinarie (IVU) sono più comuni nelle donne e aumentano con l’età e la frequenza dell’attività sessuale. \n La maggior parte delle infezioni è causata da Escherichia coli. \n L’urinocoltura deve essere considerata nei bambini e nelle persone ad alto rischio di infezioni complicate (ad esempio \nuomini, donne in gravidanza) o in caso di infezioni ricorrenti. \n Nitrofurantoina orale per 5 giorni è il principale trattamento raccomandato per le infezioni del tratto urinario inferiore. \n Nella maggior parte dei casi un’urinocoltura positiva nei pazienti asintomatici non determina il trattamento antibiotico. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti)"
+        },
+        {
+          "page": 177,
+          "retrieval_distance": 0.28069841861724854,
+          "text": "passage: • Le ustioni possono essere classificate in base alla causa e alla\nprofondità\nAgenti patogeni più probabili \nTest microbiologici\nPer lo più polimicrobico. Gli organismi multiresistenti nosocomiali \nsono una delle principali preoccupazioni nei pazienti ustionati \nspesso a causa del ricovero prolungato e della frequente \nesposizione agli antibiotici \n• Nei casi lievi senza segni di infezione sistemica, non sono\nnecessari test di routine, comprese le colture delle ferite.\n• L’identificazione del patogeno causale nei casi lievi\ncambia di rado la gestione del paziente.\n• Nei casi gravi, in caso di sospetta sepsi, consultare la\nrelativa infografica\nPoco dopo l’inIortunio: \n• Streptococcus spp.\n• Staphylococcus aureus (compresi ceppi MRSA)\n• Staphylococcus spp. diverso da S. aureus\n• Enterobacterales*\n'urante l’ospedalizzazione: \nAltri test di laboratorio"
+        },
+        {
+          "page": 109,
+          "retrieval_distance": 0.28239575028419495,
+          "text": "passage: allergica, i pazienti riportano una sensazione di bruciore e di corpo estraneo o prurito e l’occhio di solito presenta \nsecrezione acquosa. Nella maggior parte dei casi, la congiuntivite è una patologia lieve autolimitante.  \nUna grave forma di congiuntivite è la congiuntivite batterica iperacuta che è principalmente causata da Neisseria \ngonorrhoeae. È caratterizzata da una grave secrezione purulenta e da una diminuzione della vista. Di solito sono \npresenti gonfiore palpebrale, dolore alla palpazione e adenopatia preauricolare (86).  \nNei neonati, la congiuntivite può essere causata da una serie di agenti patogeni. In generale, l’infezione gonococcica \no stafilococcica può presentarsi precocemente con sintomi nei primi 5 giorni di vita, mentre l’infezione da Clamidia \ndi solito si presenta più tardi (> 5 giorni dopo la nascita). \nEsami di laboratorio"
+        },
+        {
+          "page": 175,
+          "retrieval_distance": 0.28408536314964294,
+          "text": "passage: 17. Infezioni da ustione\nMessaggi chiave \n\nLe ferite da ustione predispongono ad infezioni (danni della barriera protettiva cutanea, immunosoppressione nei casi \ngravi) e devono essere monitorate per identificare segni di cellulite (rossore, dolore e gonfiore intorno alla ferita).\n\nEvitare l’uso routinario di antibiotici per prevenire le infezioni, se non ci sono segni di infezione sistemica e in pazienti sani.\n\nLe infezioni lievi devono essere trattate con antibiotici con buona attività contro gli agenti patogeni più probabili (batteri\nGram-positivi del microbiota cutaneo).\n\nGli organismi multiresistenti sono una delle preoccupazioni maggiori nei pazienti con ferite da ustione gravi, a causa del \nricovero prolungato e della frequente esposizione agli antibiotici.\n\nLa sepsi e lo shock settico sono una complicanza frequente delle ustioni gravi."
+        },
+        {
+          "page": 64,
+          "retrieval_distance": 0.28447631001472473,
+          "text": "passage: Trattamento \n        Considerazioni cliniche \n      Durata del trattamento antibiotico \n      Trattamento antibiotico \n ACCESS\nACCESS\n3-6 kg  250 di amox/dose q12h \n6-<10 kg  375 di amox/dose q12h \n10-<15 kg  500 di amox/dose q12h \n15-<20 kg  750 di amox/dose q12h\n      ≥20 kg  500 di amox/dose q8h  \no 1 g di amox/dose q12h\nNessun trattamento antibiotico \nManifestazione da lieve a moderata (durata <10 \ngiorni e tendenza al miglioramento dei sintomi):  \n•\nApproccio di vigile attesa con riduzione dei\nsintomi, senza trattamento antibiotico\n       Trattamento sintomatico \n 3- <6 kg    60 mg q6h  \n 6-<10 kg 100 mg q6h \n10-<15 kg   150 mg q6h \n15-<20 kg   200 mg q6h  \n20-<30 kg   300 mg q6h \n      ≥30 kg   500 mg-1 q4-6h \n(Max 4 g/die o 2 g/die se \ninsufficienza epatica/cirrosi) \n•\nIl trattamento serve a migliorare i sintomi, ma nella\nmaggior parte dei casi gli antibiotici hanno un"
+        },
+        {
+          "page": 195,
+          "retrieval_distance": 0.28873002529144287,
+          "text": "passage: sovrapponibili a quelli dell’infezione gonococcica (la\nco-infezione è possibile ed è comune)\nSintomi più comuni: \n• Negli uomini: uretrite acuta con secrezione uretrale\n“chiara” e disuria\n• Nelle donne: perdita vaginale, dispareunia\n(rapporti sessuali dolorosi) e disuria\n• Inoltre, in entrambi i sessi:\n• Sintomi di proctite acuta accompagnata da dolore,\nprurito, secrezione e sanguinamento anale\n• Sintomi del linfogranuloma venereo (uomini >\ndonne):\n• Lesione ulcerosa o papula solitamente su genitali o\nretto, nonché linfoadenopatia inguinale o femorale\n(di solito unilaterale)\n• Lesione passa spesso inosservata nelle donne\no se localizzata nel retto\n• 9edere linee guida O06 “Laboratory diagnosis of\nsexually transmitted infections”\nhttps://apps.who.int/iris/handle/10665/85343\n• Importante: tutti i pazienti con sospetta infezione\nurogenitale da clamidia devono essere sottoposti a test"
+        },
+        {
+          "page": 203,
+          "retrieval_distance": 0.29195740818977356,
+          "text": "passage: • Alcune persone rimangono asintomatiche, sebbene\npossano ancora trasmettere l'infezione\n• Se si manifestano, i sintomi sono spesso sovrapponibili\na quelli dell’infezione da clamidia (la co-infezione è\npossibile ed è comune)\nSintomi più comuni (di solito si verificano alcuni giorni \ndopo l’infezione): \n• Negli uomini: uretrite acuta con profusa secrezione uretrale\nmucopurulenta e disuria; possibile disagio testicolare\n•\nNelle donne: secrezione uretrale mucopurulenta e disuria;\npossibile vaginite accompagnata da dolore e infiammazione\nvaginale e dolore addominale basso; possono verificarsi\nanche secrezione cervicale, ectopia e fragilità della cervice\ne facile sanguinamento al contatto\n• Inoltre, in entrambi i sessi:\n• sintomi di proctite acuta accompagnata da dolore,\nprurito, secrezione e sanguinamento anale\n• altre possibili manifestazioni: faringite e\ncongiuntivite"
+        },
+        {
+          "page": 234,
+          "retrieval_distance": 0.2923177480697632,
+          "text": "passage: Infezione delle Yie urinarie inIeriori\nPagina 2 di 2 \nTrattamento \nConsiderazioni cliniche \nTrattamento antibiotico \nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile E test positivo \n(leucociti \nurinari/esterasi \nleucocitaria \npositivi \no \nurinocoltura positiva) \n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di circa 2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se \nnon diversamente indicato \n  Amoxicillina+acido clavulanico 80-90 mg/kg/die \n ACCESS   del componente amoxicillina ORALE \n• Fasce di peso per somministrazione orale:"
+        }
+      ]
+    }
+  },
+  "UTI_003": {
+    "response_text": "{\n  \"antibiotic_needed\": true,\n  \"active_ingredient\": \"Amoxicillina+acido clavulanico o Nitrofurantoina\",\n  \"reasoning\": \"Il paziente di 47 anni presenta sintomi clinici acuti (< 1 settimana) compatibili con un'infezione delle vie urinarie inferiori (disuria, aumento della frequenza, urgenza minzionale, dolore sovrapubico) in assenza di segni sistemici come febbre. I test di laboratorio indicano la presenza di leucociti urinari ed esterasi leucocitaria positivi, oltre a urinocoltura positiva. Le linee guida raccomandano espressamente il trattamento antibiotico in presenza di manifestazione clinica compatibile E test positivo (leucociti urinari/esterasi leucocitaria o urinocoltura positiva). Le opzioni terapeutiche indicate nelle linee guida includono Amoxicillina+acido clavulanico oppure Nitrofurantoina.\",\n  \"evidence_pages\": [\n    230,\n    232,\n    234\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": true,
+    "active_ingredient": "Amoxicillina+acido clavulanico o Nitrofurantoina",
+    "reasoning": "Il paziente di 47 anni presenta sintomi clinici acuti (< 1 settimana) compatibili con un'infezione delle vie urinarie inferiori (disuria, aumento della frequenza, urgenza minzionale, dolore sovrapubico) in assenza di segni sistemici come febbre. I test di laboratorio indicano la presenza di leucociti urinari ed esterasi leucocitaria positivi, oltre a urinocoltura positiva. Le linee guida raccomandano espressamente il trattamento antibiotico in presenza di manifestazione clinica compatibile E test positivo (leucociti urinari/esterasi leucocitaria o urinocoltura positiva). Le opzioni terapeutiche indicate nelle linee guida includono Amoxicillina+acido clavulanico oppure Nitrofurantoina.",
+    "evidence_pages": [
+      230,
+      232,
+      234
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "UTI_003",
+        "doctor_note": "\nPaziente di 47 anni presenta da 3 giorni disuria,\naumento della frequenza della minzione e urgenza minzionale.\nRiferisce dolore sovrapubico e difficoltà a iniziare la\nminzione.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n",
+        "ehr": {
+          "age": 47,
+          "sex": "maschio",
+          "region": "Lombardia",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "trimetoprim/sulfametossazolo",
+              "indication": "infezione delle vie urinarie"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": false
+        },
+        "clinical_features": {
+          "symptoms": [
+            "disuria",
+            "aumento della frequenza della minzione",
+            "urgenza minzionale",
+            "dolore sovrapubico",
+            "difficoltà a iniziare la minzione"
+          ],
+          "symptom_duration_days": 3,
+          "temperature_c": 37.0,
+          "tests": {
+            "leucociti_urinari": true,
+            "esterasi_leucocitaria": true,
+            "urinocoltura": true
+          }
+        },
+        "regional_context": {
+          "region": "Lombardia",
+          "antibiotic_pressure": 1.0,
+          "antibiotic_pressure_level": "high"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 47 anni presenta da 3 giorni disuria,\naumento della frequenza della minzione e urgenza minzionale.\nRiferisce dolore sovrapubico e difficoltà a iniziare la\nminzione.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n\nadulti\ndisuria, aumento della frequenza della minzione, urgenza minzionale, dolore sovrapubico, difficoltà a iniziare la minzione\nleucociti_urinari\nesterasi_leucocitaria\nurinocoltura\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 231,
+          "retrieval_distance": 0.24193650484085083,
+          "text": "passage: Infezione delle vie urinarie inferiori\nInfezione delle vie urinarie\n  Pagina 1 di 2 \nDefinizione \nDiagnosi \n\nInfezione della parte bassa delle vie urinarie (es. vescica -\ncistite)\n\nLe infezioni delle vie urinarie (IVU) nei soggetti con\nanomalie strutturali delle vie urinarie o che sono\nimmunocompromessi e nelle donne in gravidanza si\nconsiderano generalmente a rischio più elevato di\nevoluzione complicata (IVU complicate)\nManifestazione clinica \nDisuria acuta (< 1 settimana), aumento dell'urgenza e della \nfrequenza della minzione, dolore o disagio addominale \ninferiore e talvolta ematuria marcata \n• Nelle donne deve essere esclusa in primo luogo una fonte\nvaginale dei sintomi (perdita o irritazione vaginale)\n• Nei pazienti anziani con sintomi urinari pre-esistenti, i sintomi\npiù indicativi dell'infezione sono cambiamenti urinari acuti\nrispetto al basale\nAgenti patogeni più probabili"
+        },
+        {
+          "page": 233,
+          "retrieval_distance": 0.25200289487838745,
+          "text": "passage: considerano generalmente a rischio più elevato di evoluzione\ncomplicata (IVU complicate)\nDiagnosi \nManifestazione clinica \nTest microbiologici\nPazienti sintomatici: \n• urinocoltura (sempre nei bambini) per confermare\nla diagnosi e adattare il trattamento empirico\n• Disuria acuta (< 1 settimana), aumento dell'urgenza e\ndella frequenza della minzione, incontinenza/enuresi,\ndolore o disagio addominale inferiore, e talvolta ematuria\n• Generalmente senza segni/sintomi sistemici\n(es. febbre)\nImportante: \n• Una urinocoltura positiva in un paziente\nasintomatico indica colonizzazione batterica e non\nrichiede trattamento se non in pazienti sottoposti a\nprocedure urologiche in cui è previsto\nsanguinamento\n• L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale"
+        },
+        {
+          "page": 236,
+          "retrieval_distance": 0.25917744636535645,
+          "text": "passage: Manifestazione clinica \nI sintomi classici di infezione delle vie urinarie inferiori comprendono una combinazione di disuria acuta (< 1 \nsettimana), aumento dell’urgenza e della frequenza della minzione, dolore o disagio addominale inferiore, e talvolta \nematuria marcata, ossia con sangue visibile nelle urine. Nelle donne, prima di stabilire una diagnosi di infezione delle \nvie urinarie inferiori, devono essere escluse le perdite vaginali o l’irritazione vaginale. Nei pazienti anziani con sintomi \nurinari preesistenti (ad esempio, incontinenza urinaria), la valutazione può essere più difficile. Tuttavia, i sintomi più \nindicativi in questi casi sono ancora i cambiamenti urinari acuti rispetto al basale. Sintomi atipici, come cadute e \nstato mentale alterato, non sono affidabili. Inoltre, urine torbide e urine maleodoranti da sole non sono segnali \nattendibili di IVU."
+        },
+        {
+          "page": 230,
+          "retrieval_distance": 0.2634684443473816,
+          "text": "passage: 23. Infezione delle vie urinarie inferiori \n \nNota  \nIl presente capitolo affronta la cistite acuta acquisita in comunità. \n \nMessaggi chiave \n Le infezioni delle vie urinarie (IVU) sono più comuni nelle donne e aumentano con l’età e la frequenza dell’attività sessuale. \n La maggior parte delle infezioni è causata da Escherichia coli. \n L’urinocoltura deve essere considerata nei bambini e nelle persone ad alto rischio di infezioni complicate (ad esempio \nuomini, donne in gravidanza) o in caso di infezioni ricorrenti. \n Nitrofurantoina orale per 5 giorni è il principale trattamento raccomandato per le infezioni del tratto urinario inferiore. \n Nella maggior parte dei casi un’urinocoltura positiva nei pazienti asintomatici non determina il trattamento antibiotico. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti)"
+        },
+        {
+          "page": 232,
+          "retrieval_distance": 0.2699742913246155,
+          "text": "passage: Infezione delle vie urinarie inferiori\nPagina 2 di 2 \nTrattamento\nConsiderazioni cliniche\nTrattamento antibiotico\nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile e test positivo\n(leucociti urinari/esterasi leucocitaria positivi o urinocoltura \npositiva)\n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di 1-2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale\nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento \nsalvo diversa indicazione  \nAmoxicillina+acido clavulanico 500 mg+125 mg \nq8h ORALE  \nDurata del trattamento: 3-5 giorni\nACCESS\nAttivi contro alcuni isolati che producono ESBL\nOPPURE\nNitrofurantoina ORALE"
+        },
+        {
+          "page": 234,
+          "retrieval_distance": 0.27928808331489563,
+          "text": "passage: Infezione delle Yie urinarie inIeriori\nPagina 2 di 2 \nTrattamento \nConsiderazioni cliniche \nTrattamento antibiotico \nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile E test positivo \n(leucociti \nurinari/esterasi \nleucocitaria \npositivi \no \nurinocoltura positiva) \n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di circa 2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se \nnon diversamente indicato \n  Amoxicillina+acido clavulanico 80-90 mg/kg/die \n ACCESS   del componente amoxicillina ORALE \n• Fasce di peso per somministrazione orale:"
+        },
+        {
+          "page": 153,
+          "retrieval_distance": 0.28007885813713074,
+          "text": "passage: 3. Pazienti con diarrea persistente (sintomi di durata > 14 giorni). In questi pazienti, è spesso coinvolto un \nparassita (es. Giardia intestinalis, Entamoeba histolytica) e i principali rischi sono la malnutrizione e la \ndisidratazione. \n4. Diarrea con malnutrizione grave. In questi pazienti, la malnutrizione è sia una causa che una conseguenza \ndella diarrea. \n5. Diarrea con esposizione recente agli antibiotici (Clostridioides difficile). Si tratta generalmente di una \npatologia nosocomiale; vedere il capitolo su Clostridioides difficile, se si sospetta questa infezione. \nI pazienti possono presentare vari gradi di disidratazione e questo deve essere valutato prontamente, soprattutto \nnei bambini e nelle persone anziane. Nei bambini, il grado di disidratazione può essere valutato su una scala di tre, \ncome indicato nella Tabella 14.4 (146)."
+        },
+        {
+          "page": 61,
+          "retrieval_distance": 0.2811014950275421,
+          "text": "passage: • La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase iniziale\nlieve\nTest microbiologici\nDi solito non necessari\nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n61\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 175,
+          "retrieval_distance": 0.2830171287059784,
+          "text": "passage: 17. Infezioni da ustione\nMessaggi chiave \n\nLe ferite da ustione predispongono ad infezioni (danni della barriera protettiva cutanea, immunosoppressione nei casi \ngravi) e devono essere monitorate per identificare segni di cellulite (rossore, dolore e gonfiore intorno alla ferita).\n\nEvitare l’uso routinario di antibiotici per prevenire le infezioni, se non ci sono segni di infezione sistemica e in pazienti sani.\n\nLe infezioni lievi devono essere trattate con antibiotici con buona attività contro gli agenti patogeni più probabili (batteri\nGram-positivi del microbiota cutaneo).\n\nGli organismi multiresistenti sono una delle preoccupazioni maggiori nei pazienti con ferite da ustione gravi, a causa del \nricovero prolungato e della frequente esposizione agli antibiotici.\n\nLa sepsi e lo shock settico sono una complicanza frequente delle ustioni gravi."
+        }
+      ]
+    }
+  },
+  "CTRL_001": {
+    "response_text": "{\n  \"antibiotic_needed\": false,\n  \"active_ingredient\": null,\n  \"reasoning\": \"La paziente presenta esclusivamente eritema localizzato e dolore urente insorti da sole 2 ore in seguito a puntura di medusa, con temperatura corporea nella norma (36.7 °C) e assenza di segni o sintomi di infezione batterica sistemica o locale. Le linee guida specificano che l'arrossamento da solo può non indicare un'infezione e che la terapia antibiotica è indicata unicamente in presenza di evidenti segni/sintomi di infezione.\",\n  \"evidence_pages\": [\n    166,\n    176,\n    187\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": false,
+    "active_ingredient": null,
+    "reasoning": "La paziente presenta esclusivamente eritema localizzato e dolore urente insorti da sole 2 ore in seguito a puntura di medusa, con temperatura corporea nella norma (36.7 °C) e assenza di segni o sintomi di infezione batterica sistemica o locale. Le linee guida specificano che l'arrossamento da solo può non indicare un'infezione e che la terapia antibiotica è indicata unicamente in presenza di evidenti segni/sintomi di infezione.",
+    "evidence_pages": [
+      166,
+      176,
+      187
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "CASE_011",
+        "doctor_note": "\nPaziente di 26 anni presenta dolore urente ed eritema\nlocalizzato dopo una puntura di medusa avvenuta circa\n2 ore prima.\nRiferisce esclusivamente sintomi cutanei locali.\n",
+        "ehr": {
+          "age": 26,
+          "sex": "femmina",
+          "region": "Liguria",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "amoxicillina/acido clavulanico",
+              "indication": "otite media"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": false
+        },
+        "clinical_features": {
+          "symptoms": [
+            "dolore urente locale",
+            "eritema localizzato"
+          ],
+          "symptom_duration_hours": 2,
+          "temperature_c": 36.7
+        },
+        "regional_context": {
+          "region": "Liguria",
+          "antibiotic_pressure": 0.17766896416733272,
+          "antibiotic_pressure_level": "medium"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 26 anni presenta dolore urente ed eritema\nlocalizzato dopo una puntura di medusa avvenuta circa\n2 ore prima.\nRiferisce esclusivamente sintomi cutanei locali.\n\nadulti\ndolore urente locale, eritema localizzato\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 61,
+          "retrieval_distance": 0.2664388120174408,
+          "text": "passage: • La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase iniziale\nlieve\nTest microbiologici\nDi solito non necessari\nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n61\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 165,
+          "retrieval_distance": 0.27217334508895874,
+          "text": "passage: • Antibiotici per via endovenosa: Possono essere\nnecessari se l'infezione si diffonde rapidamente e non \nrisponde agli antibiotici orali \nImpetigine: Insorgenza acuta di lesioni cutanee superficiali di \nsolito senza sintomi sistemici associati \n• Maggioranza dei casi: le papule progrediscono a vescicole e\npustole che si rompono fino a formare croste (forma non \nbollosa) \n• Minoranza di casi: le vescicole si sviluppano formando bolle\npiù grandi (forma bollosa). \nErisipela: Insorgenza acuta di una lesione cutanea arrossata \ncon margini induriti ben definiti, di solito sul viso o sulle gambe \n• Possono essere presenti bolle o svilupparsi nei primi giorni.\n• Possono essere presenti febbre (> 38,0 °C) e altri segni di\ninfezione sistemica \nCellulite: Insorgenza acuta di una lesione cutanea che \npresenta una combinazione di arrossamento, gonfiore e"
+        },
+        {
+          "page": 63,
+          "retrieval_distance": 0.2729576528072357,
+          "text": "passage: congestione nasale, dolore dentale o facciale unilaterale, \nsensazione di pienezza o pressione in viso e tosse \n• La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase\niniziale lieve\nTest microbiologici\nDi solito non necessari \nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n63\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 185,
+          "retrieval_distance": 0.27716484665870667,
+          "text": "passage: Infezioni da ferite o morso\nPagina 2 di 2\nTrattamento\nProfilassi antibiotica\nConsiderazioni \n• Subito dopo l’infortunio: lavare accuratamente la ferita\nper circa 15 minuti con sapone o detergente e molta acqua \npulita, con successivi sbrigliamento e immobilizzazione\n• Rischio di tetano e rabbia: valutare rapidamente la\nnecessità di un'adeguata profilassi post-esposizione\n• Segni/Sintomi di infezione: Il trattamento empirico\ndelle infezioni lievi deve includere antibiotici con buona \nattività contro i patogeni più probabili, Staphylococcus \naureus e Streptococcus spp. e anaerobi\n• Morsi umani/animali Necessario trattamento empirico\ncontro batteri aerobi e anaerobi; trattamento empirico \ncontro MRSA acquisito in comunità di solito non \nrichiesto.\n• Evitare gli antibiotici per prevenire l'infezione nelle ferite da\nustione se non segni di infezione sistemica o in pazienti sani\n• Nessuna"
+        },
+        {
+          "page": 64,
+          "retrieval_distance": 0.27839815616607666,
+          "text": "passage: Trattamento \n        Considerazioni cliniche \n      Durata del trattamento antibiotico \n      Trattamento antibiotico \n ACCESS\nACCESS\n3-6 kg  250 di amox/dose q12h \n6-<10 kg  375 di amox/dose q12h \n10-<15 kg  500 di amox/dose q12h \n15-<20 kg  750 di amox/dose q12h\n      ≥20 kg  500 di amox/dose q8h  \no 1 g di amox/dose q12h\nNessun trattamento antibiotico \nManifestazione da lieve a moderata (durata <10 \ngiorni e tendenza al miglioramento dei sintomi):  \n•\nApproccio di vigile attesa con riduzione dei\nsintomi, senza trattamento antibiotico\n       Trattamento sintomatico \n 3- <6 kg    60 mg q6h  \n 6-<10 kg 100 mg q6h \n10-<15 kg   150 mg q6h \n15-<20 kg   200 mg q6h  \n20-<30 kg   300 mg q6h \n      ≥30 kg   500 mg-1 q4-6h \n(Max 4 g/die o 2 g/die se \ninsufficienza epatica/cirrosi) \n•\nIl trattamento serve a migliorare i sintomi, ma nella\nmaggior parte dei casi gli antibiotici hanno un"
+        },
+        {
+          "page": 187,
+          "retrieval_distance": 0.27928581833839417,
+          "text": "passage: Infezioni da ferite o morso \nPagina 2 di 2 \nTrattamento \nFerite non da morso\nConsiderazioni cliniche\n• Subito dopo l’infortunio: lavare accuratamente la ferita\nper circa 15 minuti con sapone o detergente e molta acqua \npulita, con successivi sbrigliamento e immobilizzazione \n• Rischio di tetano e rabbia: valutare rapidamente la\nnecessità di un'adeguata profilassi post-esposizione \n• Segni/Sintomi di infezione: Il trattamento empirico\ndelle infezioni lievi deve includere antibiotici con buona \nattività contro i patogeni più probabili, Staphylococcus \naureus e Streptococcus spp. e anaerobi \n• Morsi umani/animali: Necessario trattamento empirico\ncontro batteri aerobi e anaerobi; trattamento empirico contro \nMRSA acquisito in comunità di solito non necessario \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se non"
+        },
+        {
+          "page": 166,
+          "retrieval_distance": 0.2799080014228821,
+          "text": "passage: • Maggioranza dei casi: le papule progrediscono a vescicole\ne pustole che si rompono fino a formare croste (forma non \nbollosa) \n• Minoranza di casi: le vescicole si sviluppano formando bolle\npiù grandi (forma bollosa). \nErisipela: Insorgenza acuta di una lesione cutanea arrossata \ncon margini induriti ben definiti, di solito sul viso o sulle gambe \n• Possono essere presenti bolle o svilupparsi nei primi giorni.\n• Possono essere presenti febbre (> 38,0 °C) e altri segni di\ninfezione sistemica \nCellulite: Insorgenza acuta di una lesione cutanea che\npresenta una combinazione di arrossamento, gonfiore e \nindurimento, calore al tatto e dolenzia della zona interessata \n• Aree più comunemente interessate: gambe e viso\n• Possono essere presenti febbre (> 38,0 °C) e altri segni di\ninfezione sistemica \n• L’arrossamento da solo può non indicare infezione"
+        },
+        {
+          "page": 233,
+          "retrieval_distance": 0.2837679088115692,
+          "text": "passage: • L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\n• Nelle bambine, deve essere esclusa in primo luogo una\nfonte vaginale dei sintomi (secrezione o irritazione\nvaginale)\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce-stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione \n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare possibili \nanomalie sottostanti del tratto urinario \nBAMBINI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n233\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 176,
+          "retrieval_distance": 0.2854686975479126,
+          "text": "passage: considerazione sulla base di fattori di rischio individuali della\nprevalenza locale\nDiagnosi \nManifestazione clinica \nLa diagnosi di infezione da ferita richiede un esame clinico \n• Le ferite da ustione devono essere monitorate per\nidentificare segni di infezione, quali aumento del dolore,\narrossamento o gonfiore della zona circostante la ferita\n• L’arrossamento da solo può non indicare infezione\n• I segni di infezione invasiva (es. modificazione del colore\ndella ferita, segni di sepsi) devono essere attentamente\nmonitorati\nDurata del trattamento antibiotico \nTrattare per 5 giorni (casi lievi) \n(Potenzialmente più a lungo se infezioni sistemiche gravi) \nTest microbiologici \n• Nei casi lievi senza segni di infezione sistemica, non sono\nnecessari test di routine, comprese le colture delle ferite.\n• L’identificazione del patogeno causale nei casi lievi"
+        },
+        {
+          "page": 97,
+          "retrieval_distance": 0.2887294292449951,
+          "text": "passage: • Nell'infezione batterica può essere presente\nsecrezione oculare densa e purulenta\nCongiuntivite batterica iperacuta\n• Infezione grave che si presenta con diminuzione della\nvista, secrezione oculare purulenta, gonfiore palpebrale,\ndolore alla palpazione e adenopatia preauricolare\n• Considerare l'invio urgente da un oftalmologo per il\nrischio di rapida progressione a perforazione corneale\nDurata del trattamento antibiotico\nLa durata del trattamento è variabile, pertanto fare riferimento \nalla sezione relativa al trattamento\nCongiuntivite batterica\nGentamicina 0,3% COLLIRIO 1 goccia \nnell’occhio interessato q6h \nDurata del trattamento: 5 giorni\nOPPURE\nTest microbiologici\nDi solito non necessari salvo sospetto di Neisseria\ngonorrhoeae o Chlamydia trachomatis\nOfloxacina 0,3% COLLIRIO 1 goccia nell’occhio \nWATCH\ninteressato q6h \nDurata del trattamento: 5 giorni\nOPPURE"
+        }
+      ]
+    }
+  },
+  "UTI_004": {
+    "response_text": "{\n  \"antibiotic_needed\": false,\n  \"active_ingredient\": null,\n  \"reasoning\": \"La linea guida indica che il trattamento antibiotico per l'infezione delle vie urinarie inferiori è raccomandato in presenza di una manifestazione clinica compatibile E un test positivo (leucociti urinari/esterasi leucocitaria positivi o urinocoltura positiva). Nel caso della paziente, i test di laboratorio effettuati indicano assenza di leucociti urinari e di esterasi leucocitaria (false), e la linea guida sottolinea che l'assenza di leucociti urinari presenta un buon valore predittivo negativo. Pertanto, i criteri per la prescrizione dell'antibiotico non sono soddisfatti.\",\n  \"evidence_pages\": [\n    231,\n    232,\n    233,\n    234\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": false,
+    "active_ingredient": null,
+    "reasoning": "La linea guida indica che il trattamento antibiotico per l'infezione delle vie urinarie inferiori è raccomandato in presenza di una manifestazione clinica compatibile E un test positivo (leucociti urinari/esterasi leucocitaria positivi o urinocoltura positiva). Nel caso della paziente, i test di laboratorio effettuati indicano assenza di leucociti urinari e di esterasi leucocitaria (false), e la linea guida sottolinea che l'assenza di leucociti urinari presenta un buon valore predittivo negativo. Pertanto, i criteri per la prescrizione dell'antibiotico non sono soddisfatti.",
+    "evidence_pages": [
+      231,
+      232,
+      233,
+      234
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "UTI_004",
+        "doctor_note": "\nPaziente di 29 anni riferisce da circa 24 ore un lieve\nbruciore occasionale durante la minzione.\nNon riferisce aumento della frequenza della minzione,\nurgenza minzionale o dolore nella parte inferiore\ndell'addome.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie.\n",
+        "ehr": {
+          "age": 29,
+          "sex": "femmina",
+          "region": "Emilia-Romagna",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "azitromicina",
+              "indication": "infezione respiratoria"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": false
+        },
+        "clinical_features": {
+          "symptoms": [
+            "lieve bruciore occasionale durante la minzione"
+          ],
+          "symptom_duration_hours": 24,
+          "temperature_c": 36.5,
+          "tests": {
+            "leucociti_urinari": false,
+            "esterasi_leucocitaria": false,
+            "urinocoltura": null
+          }
+        },
+        "regional_context": {
+          "region": "Emilia-Romagna",
+          "antibiotic_pressure": null,
+          "antibiotic_pressure_level": null
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 29 anni riferisce da circa 24 ore un lieve\nbruciore occasionale durante la minzione.\nNon riferisce aumento della frequenza della minzione,\nurgenza minzionale o dolore nella parte inferiore\ndell'addome.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie.\n\nadulti\nlieve bruciore occasionale durante la minzione\nleucociti_urinari\nesterasi_leucocitaria\nurinocoltura\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 233,
+          "retrieval_distance": 0.2652643918991089,
+          "text": "passage: • L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\n• Nelle bambine, deve essere esclusa in primo luogo una\nfonte vaginale dei sintomi (secrezione o irritazione\nvaginale)\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce-stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione \n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare possibili \nanomalie sottostanti del tratto urinario \nBAMBINI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n233\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 177,
+          "retrieval_distance": 0.2767554819583893,
+          "text": "passage: • Le ustioni possono essere classificate in base alla causa e alla\nprofondità\nAgenti patogeni più probabili \nTest microbiologici\nPer lo più polimicrobico. Gli organismi multiresistenti nosocomiali \nsono una delle principali preoccupazioni nei pazienti ustionati \nspesso a causa del ricovero prolungato e della frequente \nesposizione agli antibiotici \n• Nei casi lievi senza segni di infezione sistemica, non sono\nnecessari test di routine, comprese le colture delle ferite.\n• L’identificazione del patogeno causale nei casi lievi\ncambia di rado la gestione del paziente.\n• Nei casi gravi, in caso di sospetta sepsi, consultare la\nrelativa infografica\nPoco dopo l’inIortunio: \n• Streptococcus spp.\n• Staphylococcus aureus (compresi ceppi MRSA)\n• Staphylococcus spp. diverso da S. aureus\n• Enterobacterales*\n'urante l’ospedalizzazione: \nAltri test di laboratorio"
+        },
+        {
+          "page": 231,
+          "retrieval_distance": 0.2775940001010895,
+          "text": "passage: trattamento empirico)\nImportante: \n• Una urinocoltura positiva in un paziente\nasintomatico indica colonizzazione batterica e\nnon richiede trattamento se non in donne in\ngravidanza o in pazienti sottoposti a procedure\nurologiche in cui è previsto sanguinamento\n• L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce - stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione\n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare \npossibili anomalie sottostanti delle vie urinarie\nADULTI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”"
+        },
+        {
+          "page": 232,
+          "retrieval_distance": 0.2792503833770752,
+          "text": "passage: Infezione delle vie urinarie inferiori\nPagina 2 di 2 \nTrattamento\nConsiderazioni cliniche\nTrattamento antibiotico\nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile e test positivo\n(leucociti urinari/esterasi leucocitaria positivi o urinocoltura \npositiva)\n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di 1-2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale\nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento \nsalvo diversa indicazione  \nAmoxicillina+acido clavulanico 500 mg+125 mg \nq8h ORALE  \nDurata del trattamento: 3-5 giorni\nACCESS\nAttivi contro alcuni isolati che producono ESBL\nOPPURE\nNitrofurantoina ORALE"
+        },
+        {
+          "page": 64,
+          "retrieval_distance": 0.27963507175445557,
+          "text": "passage: Trattamento \n        Considerazioni cliniche \n      Durata del trattamento antibiotico \n      Trattamento antibiotico \n ACCESS\nACCESS\n3-6 kg  250 di amox/dose q12h \n6-<10 kg  375 di amox/dose q12h \n10-<15 kg  500 di amox/dose q12h \n15-<20 kg  750 di amox/dose q12h\n      ≥20 kg  500 di amox/dose q8h  \no 1 g di amox/dose q12h\nNessun trattamento antibiotico \nManifestazione da lieve a moderata (durata <10 \ngiorni e tendenza al miglioramento dei sintomi):  \n•\nApproccio di vigile attesa con riduzione dei\nsintomi, senza trattamento antibiotico\n       Trattamento sintomatico \n 3- <6 kg    60 mg q6h  \n 6-<10 kg 100 mg q6h \n10-<15 kg   150 mg q6h \n15-<20 kg   200 mg q6h  \n20-<30 kg   300 mg q6h \n      ≥30 kg   500 mg-1 q4-6h \n(Max 4 g/die o 2 g/die se \ninsufficienza epatica/cirrosi) \n•\nIl trattamento serve a migliorare i sintomi, ma nella\nmaggior parte dei casi gli antibiotici hanno un"
+        },
+        {
+          "page": 61,
+          "retrieval_distance": 0.28297144174575806,
+          "text": "passage: • La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase iniziale\nlieve\nTest microbiologici\nDi solito non necessari\nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n61\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 230,
+          "retrieval_distance": 0.2884509265422821,
+          "text": "passage: 23. Infezione delle vie urinarie inferiori \n \nNota  \nIl presente capitolo affronta la cistite acuta acquisita in comunità. \n \nMessaggi chiave \n Le infezioni delle vie urinarie (IVU) sono più comuni nelle donne e aumentano con l’età e la frequenza dell’attività sessuale. \n La maggior parte delle infezioni è causata da Escherichia coli. \n L’urinocoltura deve essere considerata nei bambini e nelle persone ad alto rischio di infezioni complicate (ad esempio \nuomini, donne in gravidanza) o in caso di infezioni ricorrenti. \n Nitrofurantoina orale per 5 giorni è il principale trattamento raccomandato per le infezioni del tratto urinario inferiore. \n Nella maggior parte dei casi un’urinocoltura positiva nei pazienti asintomatici non determina il trattamento antibiotico. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti)"
+        },
+        {
+          "page": 234,
+          "retrieval_distance": 0.28902149200439453,
+          "text": "passage: Infezione delle Yie urinarie inIeriori\nPagina 2 di 2 \nTrattamento \nConsiderazioni cliniche \nTrattamento antibiotico \nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile E test positivo \n(leucociti \nurinari/esterasi \nleucocitaria \npositivi \no \nurinocoltura positiva) \n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di circa 2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se \nnon diversamente indicato \n  Amoxicillina+acido clavulanico 80-90 mg/kg/die \n ACCESS   del componente amoxicillina ORALE \n• Fasce di peso per somministrazione orale:"
+        },
+        {
+          "page": 236,
+          "retrieval_distance": 0.2912987470626831,
+          "text": "passage: Altri test \nNei pazienti con sintomi di IVU, può essere effettuata un’analisi delle urine (strisce - stick o microscopia) per rilevare \nla presenza di batteriuria e piuria (tabella 23.3), mentre gli esami del sangue non sono generalmente utilizzati per \nconfermare l’infezione (i risultati dei test sarebbero normali in caso di infezione del tratto urinario inferiore). In un \npaziente sintomatico, la leucocituria (> 10 leucociti/μL, 0,01x109/L), la presenza di esterasi leucocitaria e/o nitriti \npositivi sono segni indiretti di infezione. Da notare che la leucocituria o la presenza di esterasi leucocitaria senza \nsintomi non è un’indicazione per il trattamento antibiotico. \n \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n236\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 87,
+          "retrieval_distance": 0.2913042902946472,
+          "text": "passage: 9. Linfadenite batterica acuta localizzata \nQuesto capitolo non include infezioni gravi o generalizzate o infezioni causate da agenti patogeni virali, fungini o \nparassitari. \nMessaggi chiave \n \nGli antibiotici non sono necessari per la grande maggioranza dei casi di ingrandimento dei linfonodi poiché sono causati \nda infezioni virali. \n \nUn approccio di vigile attesa è ragionevole quando il paziente non è gravemente malato e se non si sospetta una \nlinfadenite batterica o una neoplasia, poiché la condizione è generalmente autolimitante. \n \nNella diagnosi differenziale devono essere sempre considerati l’infezione da virus dell’immunodeficienza umana (HIV), la \ntubercolosi e la diffusione dell’infezione dentale. \n \nSe si sospetta una linfadenite batterica, il trattamento antibiotico empirico deve coprire lo Staphylococcus aureus e lo"
+        }
+      ]
+    }
+  },
+  "UTI_005": {
+    "response_text": "{\n  \"antibiotic_needed\": true,\n  \"active_ingredient\": \"Amoxicillina+acido clavulanico / Nitrofurantoina\",\n  \"reasoning\": \"La paziente di 31 anni in gravidanza presenta una manifestazione clinica compatibile con un'infezione delle vie urinarie inferiori (disuria acuta, urgenza, aumento della frequenza minzionale e dolore/disagio addominale inferiore) ed esito positivo ai test per leucociti urinari ed esterasi leucocitaria. Secondo la linea guida (pagina 232), il trattamento antibiotico è raccomandato in caso di manifestazione clinica compatibile e test positivo (leucociti urinari/esterasi leucocitaria positivi o urinocoltura positiva). Le opzioni terapeutiche orali indicate per la condizione comprendono amoxicillina+acido clavulanico oppure nitrofurantoina.\",\n  \"evidence_pages\": [\n    231,\n    232\n  ],\n  \"missing_information\": [],\n  \"evidence_sufficient\": true\n}",
+    "antibiotic_needed": true,
+    "active_ingredient": "Amoxicillina+acido clavulanico / Nitrofurantoina",
+    "reasoning": "La paziente di 31 anni in gravidanza presenta una manifestazione clinica compatibile con un'infezione delle vie urinarie inferiori (disuria acuta, urgenza, aumento della frequenza minzionale e dolore/disagio addominale inferiore) ed esito positivo ai test per leucociti urinari ed esterasi leucocitaria. Secondo la linea guida (pagina 232), il trattamento antibiotico è raccomandato in caso di manifestazione clinica compatibile e test positivo (leucociti urinari/esterasi leucocitaria positivi o urinocoltura positiva). Le opzioni terapeutiche orali indicate per la condizione comprendono amoxicillina+acido clavulanico oppure nitrofurantoina.",
+    "evidence_pages": [
+      231,
+      232
+    ],
+    "missing_information": [],
+    "evidence_sufficient": true,
+    "evidence_package": {
+      "patient": {
+        "case_id": "UTI_005",
+        "doctor_note": "\nPaziente di 31 anni, alla 18ª settimana di gravidanza,\npresenta da circa 24 ore disuria acuta, aumento della\nfrequenza della minzione e urgenza minzionale.\nRiferisce lieve dolore e disagio nella parte inferiore\ndell'addome.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n",
+        "ehr": {
+          "age": 31,
+          "sex": "femmina",
+          "region": "Campania",
+          "allergies": [],
+          "previous_antibiotics": [
+            {
+              "drug": "amoxicillina",
+              "indication": "infezione odontogena"
+            }
+          ],
+          "comorbidities": [],
+          "pregnancy": true,
+          "gestational_age_weeks": 18
+        },
+        "clinical_features": {
+          "symptoms": [
+            "disuria acuta",
+            "aumento della frequenza della minzione",
+            "urgenza minzionale",
+            "dolore o disagio nella parte inferiore dell'addome"
+          ],
+          "symptom_duration_hours": 24,
+          "temperature_c": 36.8,
+          "tests": {
+            "leucociti_urinari": true,
+            "esterasi_leucocitaria": true,
+            "urinocoltura": null
+          }
+        },
+        "regional_context": {
+          "region": "Campania",
+          "antibiotic_pressure": 0.8344804869015051,
+          "antibiotic_pressure_level": "high"
+        }
+      },
+      "guideline_retrieval_query": "\nPaziente di 31 anni, alla 18ª settimana di gravidanza,\npresenta da circa 24 ore disuria acuta, aumento della\nfrequenza della minzione e urgenza minzionale.\nRiferisce lieve dolore e disagio nella parte inferiore\ndell'addome.\nIl quadro viene valutato nel contesto di una sospetta\ninfezione delle vie urinarie inferiori.\n\nadulti\ndisuria acuta, aumento della frequenza della minzione, urgenza minzionale, dolore o disagio nella parte inferiore dell'addome\ngravidanza\nleucociti_urinari\nesterasi_leucocitaria\nurinocoltura\ntrattamento antibiotico empirico\nconsiderazioni cliniche trattamento antibiotico\ndurata del trattamento antibiotico",
+      "guideline_evidence": [
+        {
+          "page": 231,
+          "retrieval_distance": 0.24716629087924957,
+          "text": "passage: Infezione delle vie urinarie inferiori\nInfezione delle vie urinarie\n  Pagina 1 di 2 \nDefinizione \nDiagnosi \n\nInfezione della parte bassa delle vie urinarie (es. vescica -\ncistite)\n\nLe infezioni delle vie urinarie (IVU) nei soggetti con\nanomalie strutturali delle vie urinarie o che sono\nimmunocompromessi e nelle donne in gravidanza si\nconsiderano generalmente a rischio più elevato di\nevoluzione complicata (IVU complicate)\nManifestazione clinica \nDisuria acuta (< 1 settimana), aumento dell'urgenza e della \nfrequenza della minzione, dolore o disagio addominale \ninferiore e talvolta ematuria marcata \n• Nelle donne deve essere esclusa in primo luogo una fonte\nvaginale dei sintomi (perdita o irritazione vaginale)\n• Nei pazienti anziani con sintomi urinari pre-esistenti, i sintomi\npiù indicativi dell'infezione sono cambiamenti urinari acuti\nrispetto al basale\nAgenti patogeni più probabili"
+        },
+        {
+          "page": 233,
+          "retrieval_distance": 0.24912749230861664,
+          "text": "passage: • L'assenza di leucociti urinari ha un buon valore\npredittivo negativo, mentre il valore predittivo\npositivo della leucocituria è subottimale\n• Nelle bambine, deve essere esclusa in primo luogo una\nfonte vaginale dei sintomi (secrezione o irritazione\nvaginale)\nAltri test di laboratorio \nPazienti sintomatici: \n• analisi delle urine (strisce-stick o microscopia) per\nrilevare batteriuria e/o segni indiretti di infezione \n(positività a esterasi leucocitaria e nitriti)\n• esami del sangue di solito non necessari\nImaging \nDi solito non necessario salvo per indagare possibili \nanomalie sottostanti del tratto urinario \nBAMBINI \nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n23. Infezione delle vie urinarie inferiori\n233\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 230,
+          "retrieval_distance": 0.26251569390296936,
+          "text": "passage: 23. Infezione delle vie urinarie inferiori \n \nNota  \nIl presente capitolo affronta la cistite acuta acquisita in comunità. \n \nMessaggi chiave \n Le infezioni delle vie urinarie (IVU) sono più comuni nelle donne e aumentano con l’età e la frequenza dell’attività sessuale. \n La maggior parte delle infezioni è causata da Escherichia coli. \n L’urinocoltura deve essere considerata nei bambini e nelle persone ad alto rischio di infezioni complicate (ad esempio \nuomini, donne in gravidanza) o in caso di infezioni ricorrenti. \n Nitrofurantoina orale per 5 giorni è il principale trattamento raccomandato per le infezioni del tratto urinario inferiore. \n Nella maggior parte dei casi un’urinocoltura positiva nei pazienti asintomatici non determina il trattamento antibiotico. \n \nUlteriori risorse dell’OMS (controllare regolarmente gli aggiornamenti)"
+        },
+        {
+          "page": 236,
+          "retrieval_distance": 0.26285460591316223,
+          "text": "passage: Manifestazione clinica \nI sintomi classici di infezione delle vie urinarie inferiori comprendono una combinazione di disuria acuta (< 1 \nsettimana), aumento dell’urgenza e della frequenza della minzione, dolore o disagio addominale inferiore, e talvolta \nematuria marcata, ossia con sangue visibile nelle urine. Nelle donne, prima di stabilire una diagnosi di infezione delle \nvie urinarie inferiori, devono essere escluse le perdite vaginali o l’irritazione vaginale. Nei pazienti anziani con sintomi \nurinari preesistenti (ad esempio, incontinenza urinaria), la valutazione può essere più difficile. Tuttavia, i sintomi più \nindicativi in questi casi sono ancora i cambiamenti urinari acuti rispetto al basale. Sintomi atipici, come cadute e \nstato mentale alterato, non sono affidabili. Inoltre, urine torbide e urine maleodoranti da sole non sono segnali \nattendibili di IVU."
+        },
+        {
+          "page": 109,
+          "retrieval_distance": 0.26903417706489563,
+          "text": "passage: allergica, i pazienti riportano una sensazione di bruciore e di corpo estraneo o prurito e l’occhio di solito presenta \nsecrezione acquosa. Nella maggior parte dei casi, la congiuntivite è una patologia lieve autolimitante.  \nUna grave forma di congiuntivite è la congiuntivite batterica iperacuta che è principalmente causata da Neisseria \ngonorrhoeae. È caratterizzata da una grave secrezione purulenta e da una diminuzione della vista. Di solito sono \npresenti gonfiore palpebrale, dolore alla palpazione e adenopatia preauricolare (86).  \nNei neonati, la congiuntivite può essere causata da una serie di agenti patogeni. In generale, l’infezione gonococcica \no stafilococcica può presentarsi precocemente con sintomi nei primi 5 giorni di vita, mentre l’infezione da Clamidia \ndi solito si presenta più tardi (> 5 giorni dopo la nascita). \nEsami di laboratorio"
+        },
+        {
+          "page": 232,
+          "retrieval_distance": 0.2694531977176666,
+          "text": "passage: Infezione delle vie urinarie inferiori\nPagina 2 di 2 \nTrattamento\nConsiderazioni cliniche\nTrattamento antibiotico\nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile e test positivo\n(leucociti urinari/esterasi leucocitaria positivi o urinocoltura \npositiva)\n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di 1-2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale\nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento \nsalvo diversa indicazione  \nAmoxicillina+acido clavulanico 500 mg+125 mg \nq8h ORALE  \nDurata del trattamento: 3-5 giorni\nACCESS\nAttivi contro alcuni isolati che producono ESBL\nOPPURE\nNitrofurantoina ORALE"
+        },
+        {
+          "page": 64,
+          "retrieval_distance": 0.27004748582839966,
+          "text": "passage: Trattamento \n        Considerazioni cliniche \n      Durata del trattamento antibiotico \n      Trattamento antibiotico \n ACCESS\nACCESS\n3-6 kg  250 di amox/dose q12h \n6-<10 kg  375 di amox/dose q12h \n10-<15 kg  500 di amox/dose q12h \n15-<20 kg  750 di amox/dose q12h\n      ≥20 kg  500 di amox/dose q8h  \no 1 g di amox/dose q12h\nNessun trattamento antibiotico \nManifestazione da lieve a moderata (durata <10 \ngiorni e tendenza al miglioramento dei sintomi):  \n•\nApproccio di vigile attesa con riduzione dei\nsintomi, senza trattamento antibiotico\n       Trattamento sintomatico \n 3- <6 kg    60 mg q6h  \n 6-<10 kg 100 mg q6h \n10-<15 kg   150 mg q6h \n15-<20 kg   200 mg q6h  \n20-<30 kg   300 mg q6h \n      ≥30 kg   500 mg-1 q4-6h \n(Max 4 g/die o 2 g/die se \ninsufficienza epatica/cirrosi) \n•\nIl trattamento serve a migliorare i sintomi, ma nella\nmaggior parte dei casi gli antibiotici hanno un"
+        },
+        {
+          "page": 61,
+          "retrieval_distance": 0.27868595719337463,
+          "text": "passage: • La localizzazione del dolore dipende dai seni interessati\n• Sinusite batterica acuta sospetta se:\n• I segni/sintomi persistono per ≥10 giorni senza\nmiglioramento\nOPPURE\n• Significativo peggioramento dei sintomi dopo fase iniziale\nlieve\nTest microbiologici\nDi solito non necessari\nAltri test di laboratorio \nDi solito non necessari \nImaging \nDi solito non necessario salvo sospetta complicanza \no diagnosi alternativa\nManuale antibiotici AWaRe (Access, Watch, Reserve)\nEdizione italiana del “The WHO AWaRe Antibiotic Book”\nParte 1 Assistenza Sanitaria di Base\n7. Sinusite acuta\n61\nTORNA ALL'INDICE"
+        },
+        {
+          "page": 234,
+          "retrieval_distance": 0.2820705771446228,
+          "text": "passage: Infezione delle Yie urinarie inIeriori\nPagina 2 di 2 \nTrattamento \nConsiderazioni cliniche \nTrattamento antibiotico \nTrattamento antibiotico raccomandato in caso di \nmanifestazione clinica compatibile E test positivo \n(leucociti \nurinari/esterasi \nleucocitaria \npositivi \no \nurinocoltura positiva) \n• Se non è possibile condurre i test, trattare in base alla\nmanifestazione clinica\n• Il miglioramento clinico dovrebbe essere evidente entro\n48-72 ore\n• Gli antibiotici riducono la durata dei sintomi di circa 2 giorni\nTutti i dosaggi si intendono per una funzionalità renale \nnormale \nGli antibiotici sono elencati in ordine alfabetico e devono \nessere tutti considerati come pari opzioni di trattamento se \nnon diversamente indicato \n  Amoxicillina+acido clavulanico 80-90 mg/kg/die \n ACCESS   del componente amoxicillina ORALE \n• Fasce di peso per somministrazione orale:"
+        },
+        {
+          "page": 147,
+          "retrieval_distance": 0.28339633345603943,
+          "text": "passage: Diarrea infettiva acuta e \ngastroenterite \nPagina 1 di 2\nQuesta guida non tratta l'infezione da Clostridioides difficile o \nla febbre tifoide (vedere capitoli separati)\nDiagnosi \nManifestazione clinica \nDefinizione \n1uova insorgenza (\u001f1\u0017 giorni) di diarrea (≥3 feci non \nformate/liquide in 24 ore o più di quanto normale per la persona) \nLa diarrea può essere acquosa o emorragica (dissenteria) \n• Possono essere presenti anche nausea, vomito, gonfiore,\ndolore addominale e crampi; la febbre può essere assente\n• La maggior parte dei casi è autolimitante in pochi giorni\n• I pazienti possono presentare vari gradi di disidratazione\ne grave malnutrizione (fattore di rischio ma anche\nconseguenza della diarrea)\nImportante: Sono possibili e devono essere prese in \nconsiderazione anche cause non infettive (es. effetti avversi di \nmedicinali tra cui gli antibiotici, malattie intestinali ed"
+        }
+      ]
+    }
+  }
+}
