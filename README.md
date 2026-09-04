@@ -2,10 +2,15 @@
 
 Modular Python implementation of the project *Retrieval-Augmented Clinical Decision Support for Antibiotic Prescribing: Integrating LLM Reasoning with AIFA Guidelines and Pharmaceutical Data*.
 
+## Report and presentation
+
+- [Report](report.pdf)
+- [Presentation](presentation.pdf)
+
 ## Project structure
 
 ```text
-antibiotics_nlp_project/
+NLP/
 ├── src/
 │   ├── config.py
 │   ├── data_loader.py
@@ -43,13 +48,15 @@ $env:GEMINI_API_KEY="YOUR_KEY"
 
 ## 1. Build the guideline vectorstore
 
-Download the AIFA AWaRe guideline PDF and run:
+Download the AIFA AWaRe guideline PDF (https://www.aifa.gov.it/documents/20142/1728113/Manuale_antibiotici_AWaRe.pdf) and run:
 
 ```bash
 python build_vectorstore.py path/to/Manuale_antibiotici_AWaRe.pdf
 ```
 
 The default output is `data/e5_vectorstore/`.
+
+The repository already contains the precomputed vectorstore, so rebuilding it is not necessary to run the demo notebook.
 
 ## 2. Run the complete pipeline
 
@@ -59,9 +66,15 @@ python main.py
 
 Results are written to `results/gemini_results.json`.
 
-## 3. Notebook usage
+### Gemini API warning
 
-The notebook is intended only for demonstration, inspection, and visualization. It imports the reusable components from `src/` rather than containing the application logic.
+The Gemini API can intermittently return `503 UNAVAILABLE` errors when the selected model is experiencing high demand. This may interrupt the pipeline even when the rest of the project is working correctly.
+
+For this reason, the repository already includes the precomputed Gemini results.
+
+## 3. Demo notebook 
+
+The demo notebook loads the precomputed results from `results/gemini_results.json` and displays the results for demonstration, inspection, and visualization.  
 
 ## Notes
 
