@@ -48,7 +48,7 @@ $env:GEMINI_API_KEY="YOUR_KEY"
 
 ## 1. Build the guideline vectorstore
 
-Download the AIFA AWaRe guideline PDF (https://www.aifa.gov.it/documents/20142/1728113/Manuale_antibiotici_AWaRe.pdf) and run:
+Download the [AIFA AWaRe guideline PDF](https://www.aifa.gov.it/documents/20142/1811463/Manuale_antibiotici_AWaRe.pdf) and run:
 
 ```bash
 python build_vectorstore.py path/to/Manuale_antibiotici_AWaRe.pdf
