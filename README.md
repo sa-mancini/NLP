@@ -1,7 +1,5 @@
 # Retrieval-Augmented Clinical Decision Support for Antibiotic Prescribing
 
-Modular Python implementation of the project *Retrieval-Augmented Clinical Decision Support for Antibiotic Prescribing: Integrating LLM Reasoning with AIFA Guidelines and Pharmaceutical Data*.
-
 ## Report and presentation
 
 - [Report](report.pdf)
